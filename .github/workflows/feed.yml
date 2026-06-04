@@ -2,8 +2,8 @@ name: WC2026 data feed
 
 on:
   schedule:
-    # 30分ごと（無料枠100req/日に収まる）。必要なら間隔を詰める。
-    - cron: "*/30 * * * *"
+    # 15分ごと（openfootballはキー不要・レート制限なし。試合数に依らず無料）。
+    - cron: "*/15 * * * *"
   workflow_dispatch: {} # 手動実行ボタン
 
 permissions:

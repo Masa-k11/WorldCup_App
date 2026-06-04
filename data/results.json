@@ -1,0 +1,9 @@
+{
+  "updatedAt": "2026-06-12T14:00:00Z",
+  "matches": {
+    "MEX|RSA": { "MEX": 1, "RSA": 2, "st": "FT", "min": 90 },
+    "CZE|KOR": { "CZE": 0, "KOR": 1, "st": "FT", "min": 90 },
+    "JPN|NED": { "JPN": 2, "NED": 1, "st": "FT", "min": 90 },
+    "ARG|DZA": { "ARG": 3, "DZA": 0, "st": "LIVE", "min": 70 }
+  }
+}

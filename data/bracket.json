@@ -1,0 +1,291 @@
+{
+  "updatedAt": "2026-06-04T04:54:47.548722+00:00",
+  "rounds": [
+    {
+      "key": "R32",
+      "ties": [
+        {
+          "date": "2026-06-28",
+          "ground": "Los Angeles (Inglewood)",
+          "home": "2A",
+          "away": "2B",
+          "hs": null,
+          "as": null
+        },
+        {
+          "date": "2026-06-29",
+          "ground": "Boston (Foxborough)",
+          "home": "1E",
+          "away": "3A/B/C/D/F",
+          "hs": null,
+          "as": null
+        },
+        {
+          "date": "2026-06-29",
+          "ground": "Monterrey (Guadalupe)",
+          "home": "1F",
+          "away": "2C",
+          "hs": null,
+          "as": null
+        },
+        {
+          "date": "2026-06-29",
+          "ground": "Houston",
+          "home": "1C",
+          "away": "2F",
+          "hs": null,
+          "as": null
+        },
+        {
+          "date": "2026-06-30",
+          "ground": "New York/New Jersey (East Rutherford)",
+          "home": "1I",
+          "away": "3C/D/F/G/H",
+          "hs": null,
+          "as": null
+        },
+        {
+          "date": "2026-06-30",
+          "ground": "Dallas (Arlington)",
+          "home": "2E",
+          "away": "2I",
+          "hs": null,
+          "as": null
+        },
+        {
+          "date": "2026-06-30",
+          "ground": "Mexico City",
+          "home": "1A",
+          "away": "3C/E/F/H/I",
+          "hs": null,
+          "as": null
+        },
+        {
+          "date": "2026-07-01",
+          "ground": "Atlanta",
+          "home": "1L",
+          "away": "3E/H/I/J/K",
+          "hs": null,
+          "as": null
+        },
+        {
+          "date": "2026-07-01",
+          "ground": "San Francisco Bay Area (Santa Clara)",
+          "home": "1D",
+          "away": "3B/E/F/I/J",
+          "hs": null,
+          "as": null
+        },
+        {
+          "date": "2026-07-01",
+          "ground": "Seattle",
+          "home": "1G",
+          "away": "3A/E/H/I/J",
+          "hs": null,
+          "as": null
+        },
+        {
+          "date": "2026-07-02",
+          "ground": "Toronto",
+          "home": "2K",
+          "away": "2L",
+          "hs": null,
+          "as": null
+        },
+        {
+          "date": "2026-07-02",
+          "ground": "Los Angeles (Inglewood)",
+          "home": "1H",
+          "away": "2J",
+          "hs": null,
+          "as": null
+        },
+        {
+          "date": "2026-07-02",
+          "ground": "Vancouver",
+          "home": "1B",
+          "away": "3E/F/G/I/J",
+          "hs": null,
+          "as": null
+        },
+        {
+          "date": "2026-07-03",
+          "ground": "Miami (Miami Gardens)",
+          "home": "1J",
+          "away": "2H",
+          "hs": null,
+          "as": null
+        },
+        {
+          "date": "2026-07-03",
+          "ground": "Kansas City",
+          "home": "1K",
+          "away": "3D/E/I/J/L",
+          "hs": null,
+          "as": null
+        },
+        {
+          "date": "2026-07-03",
+          "ground": "Dallas (Arlington)",
+          "home": "2D",
+          "away": "2G",
+          "hs": null,
+          "as": null
+        }
+      ]
+    },
+    {
+      "key": "R16",
+      "ties": [
+        {
+          "date": "2026-07-04",
+          "ground": "Philadelphia",
+          "home": "W74",
+          "away": "W77",
+          "hs": null,
+          "as": null
+        },
+        {
+          "date": "2026-07-04",
+          "ground": "Houston",
+          "home": "W73",
+          "away": "W75",
+          "hs": null,
+          "as": null
+        },
+        {
+          "date": "2026-07-05",
+          "ground": "New York/New Jersey (East Rutherford)",
+          "home": "W76",
+          "away": "W78",
+          "hs": null,
+          "as": null
+        },
+        {
+          "date": "2026-07-05",
+          "ground": "Mexico City",
+          "home": "W79",
+          "away": "W80",
+          "hs": null,
+          "as": null
+        },
+        {
+          "date": "2026-07-06",
+          "ground": "Dallas (Arlington)",
+          "home": "W83",
+          "away": "W84",
+          "hs": null,
+          "as": null
+        },
+        {
+          "date": "2026-07-06",
+          "ground": "Seattle",
+          "home": "W81",
+          "away": "W82",
+          "hs": null,
+          "as": null
+        },
+        {
+          "date": "2026-07-07",
+          "ground": "Atlanta",
+          "home": "W86",
+          "away": "W88",
+          "hs": null,
+          "as": null
+        },
+        {
+          "date": "2026-07-07",
+          "ground": "Vancouver",
+          "home": "W85",
+          "away": "W87",
+          "hs": null,
+          "as": null
+        }
+      ]
+    },
+    {
+      "key": "QF",
+      "ties": [
+        {
+          "date": "2026-07-09",
+          "ground": "Boston (Foxborough)",
+          "home": "W89",
+          "away": "W90",
+          "hs": null,
+          "as": null
+        },
+        {
+          "date": "2026-07-10",
+          "ground": "Los Angeles (Inglewood)",
+          "home": "W93",
+          "away": "W94",
+          "hs": null,
+          "as": null
+        },
+        {
+          "date": "2026-07-11",
+          "ground": "Miami (Miami Gardens)",
+          "home": "W91",
+          "away": "W92",
+          "hs": null,
+          "as": null
+        },
+        {
+          "date": "2026-07-11",
+          "ground": "Kansas City",
+          "home": "W95",
+          "away": "W96",
+          "hs": null,
+          "as": null
+        }
+      ]
+    },
+    {
+      "key": "SF",
+      "ties": [
+        {
+          "date": "2026-07-14",
+          "ground": "Dallas (Arlington)",
+          "home": "W97",
+          "away": "W98",
+          "hs": null,
+          "as": null
+        },
+        {
+          "date": "2026-07-15",
+          "ground": "Atlanta",
+          "home": "W99",
+          "away": "W100",
+          "hs": null,
+          "as": null
+        }
+      ]
+    },
+    {
+      "key": "3RD",
+      "ties": [
+        {
+          "date": "2026-07-18",
+          "ground": "Miami (Miami Gardens)",
+          "home": "L101",
+          "away": "L102",
+          "hs": null,
+          "as": null
+        }
+      ]
+    },
+    {
+      "key": "FINAL",
+      "ties": [
+        {
+          "date": "2026-07-19",
+          "ground": "New York/New Jersey (East Rutherford)",
+          "home": "W101",
+          "away": "W102",
+          "hs": null,
+          "as": null
+        }
+      ]
+    }
+  ]
+}

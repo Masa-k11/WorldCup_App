@@ -118,7 +118,28 @@ def main():
             results[key] = {id1: s1, id2: s2, "st": "FT", "min": 90}
             ft_news.append((id1, id2, s1, s2, m.get("date")))
 
+    # 決勝トーナメント表（仮枠ラベル→確定したら実チームID）
+    KO = [("Round of 32", "R32"), ("Round of 16", "R16"),
+          ("Quarter-final", "QF"), ("Semi-final", "SF"),
+          ("Match for third place", "3RD"), ("Final", "FINAL")]
+    by_round = {}
+    for m in matches:
+        by_round.setdefault(m.get("round"), []).append(m)
+    bracket_rounds = []
+    for rname, key in KO:
+        ties = []
+        for m in by_round.get(rname, []):
+            h = ALIAS.get(norm(m.get("team1", ""))) or m.get("team1", "")
+            a = ALIAS.get(norm(m.get("team2", ""))) or m.get("team2", "")
+            s1, s2 = score_of(m)
+            ties.append({"date": m.get("date"), "ground": m.get("ground", ""),
+                         "home": h, "away": a, "hs": s1, "as": s2})
+        bracket_rounds.append({"key": key, "ties": ties})
+
     now = datetime.datetime.now(datetime.timezone.utc).isoformat()
+    (DATA / "bracket.json").write_text(
+        json.dumps({"updatedAt": now, "rounds": bracket_rounds},
+                   ensure_ascii=False, indent=2), encoding="utf-8")
     (DATA / "fixtures.json").write_text(
         json.dumps({"updatedAt": now, "matches": fixtures},
                    ensure_ascii=False, indent=2), encoding="utf-8")

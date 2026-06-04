@@ -1,16 +1,18 @@
 #!/usr/bin/env python3
 """
-API-Football から 2026 W杯(league=1, season=2026)の試合を取得し、
-アプリ用の data/results.json と data/news.json を生成する。
+openfootball（パブリックドメインの公開データ・キー不要）から
+2026 W杯の試合を取得し、アプリ用の JSON を生成する。
 
-- 事実データ（スコア・経過・チーム名）のみを扱う。編集ニュースは扱わない。
-- APIキーは環境変数 API_FOOTBALL_KEY（GitHub Secret）から読む。
-- 無料枠(100req/日)に収まるよう、1回の実行で /fixtures を1コールのみ。
+出力:
+- data/fixtures.json … 実日程（日付/時刻/UTCオフセット/会場）※キックオフ前から利用可
+- data/results.json  … 確定スコア（試合が行われたら埋まる）
+- data/news.json     … 試合終了の速報（事実データから自動生成）
+
+出典: https://github.com/openfootball/worldcup.json (public domain)
 """
-import json, os, sys, urllib.request, unicodedata, datetime, pathlib
+import json, os, re, urllib.request, unicodedata, datetime, pathlib
 
-API = "https://v3.football.api-sports.io/fixtures?league=1&season=2026"
-KEY = os.environ.get("API_FOOTBALL_KEY", "")
+SRC = "https://raw.githubusercontent.com/openfootball/worldcup.json/master/2026/worldcup.json"
 DATA = pathlib.Path(__file__).resolve().parent.parent / "data"
 
 # teamId -> (日本語名, 英語名)
@@ -48,7 +50,6 @@ def norm(s):
     return "".join(c for c in s.lower() if c.isalnum())
 
 
-# 正規化したAPIチーム名 -> teamId
 ALIAS = {norm(en): tid for tid, (_, en) in NAMES.items()}
 ALIAS.update({
     "southkorea": "KOR", "republicofkorea": "KOR",
@@ -65,74 +66,77 @@ ALIAS.update({
     "saudiarabia": "KSA",
 })
 
-LIVE = {"1H", "2H", "HT", "ET", "BT", "P", "LIVE", "INT"}
-DONE = {"FT", "AET", "PEN"}
-
 
 def pairkey(a, b):
     return "|".join(sorted([a, b]))
 
 
-def fetch():
-    req = urllib.request.Request(API, headers={"x-apisports-key": KEY})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return json.load(r)
+def parse_date(d):
+    try:
+        y, mo, da = d.split("-")
+        return int(y), int(mo), int(da)
+    except Exception:
+        return None, None, None
+
+
+def parse_time(t):
+    m = re.match(r"(\d{1,2}):(\d{2})\s*UTC([+-]\d+)?", t or "")
+    if not m:
+        return None, None, None, ""
+    off = int(m.group(3)) if m.group(3) else None
+    tz = ("UTC" + m.group(3)) if m.group(3) else ""
+    return int(m.group(1)), int(m.group(2)), off, tz
+
+
+def score_of(m):
+    if m.get("score1") is not None and m.get("score2") is not None:
+        return m["score1"], m["score2"]
+    ft = (m.get("score") or {}).get("ft")
+    if isinstance(ft, list) and len(ft) == 2:
+        return ft[0], ft[1]
+    return None, None
 
 
 def main():
-    if not KEY:
-        print("No API_FOOTBALL_KEY; skip.", file=sys.stderr)
-        return
-    data = fetch()
-    fixtures = data.get("response", []) or []
-    matches, ft_news, live_news = {}, [], []
+    d = json.load(urllib.request.urlopen(
+        urllib.request.Request(SRC, headers={"User-Agent": "wc26"}), timeout=30))
+    matches = d.get("matches", []) or []
 
-    for fx in fixtures:
-        st = fx["fixture"]["status"]["short"]
-        elapsed = fx["fixture"]["status"].get("elapsed")
-        hid = ALIAS.get(norm(fx["teams"]["home"]["name"]))
-        aid = ALIAS.get(norm(fx["teams"]["away"]["name"]))
-        gh, ga = fx["goals"]["home"], fx["goals"]["away"]
-        ts = fx["fixture"].get("date")
-        if not hid or not aid or gh is None or ga is None:
-            continue
-        if st in DONE:
-            stt = "FT"
-        elif st in LIVE:
-            stt = "LIVE"
-        else:
-            continue
-        matches[pairkey(hid, aid)] = {hid: gh, aid: ga, "st": stt, "min": elapsed}
-        (live_news if stt == "LIVE" else ft_news).append(
-            (stt, hid, aid, gh, ga, elapsed, ts))
+    fixtures, results, ft_news = {}, {}, []
+    for m in matches:
+        id1 = ALIAS.get(norm(m.get("team1", "")))
+        id2 = ALIAS.get(norm(m.get("team2", "")))
+        if not id1 or not id2:
+            continue  # トーナメント仮枠（1A, W73 等）はスキップ
+        key = pairkey(id1, id2)
+        y, mo, da = parse_date(m.get("date", ""))
+        h, mi, off, tz = parse_time(m.get("time", ""))
+        fixtures[key] = {"y": y, "mo": mo, "d": da, "h": h, "mi": mi,
+                         "off": off, "tz": tz, "ground": m.get("ground", "")}
+        s1, s2 = score_of(m)
+        if s1 is not None and s2 is not None:
+            results[key] = {id1: s1, id2: s2, "st": "FT", "min": 90}
+            ft_news.append((id1, id2, s1, s2, m.get("date")))
 
-    results = {
-        "updatedAt": datetime.datetime.utcnow().isoformat() + "Z",
-        "matches": matches,
-    }
+    now = datetime.datetime.now(datetime.timezone.utc).isoformat()
+    (DATA / "fixtures.json").write_text(
+        json.dumps({"updatedAt": now, "matches": fixtures},
+                   ensure_ascii=False, indent=2), encoding="utf-8")
     (DATA / "results.json").write_text(
-        json.dumps(results, ensure_ascii=False, indent=2), encoding="utf-8")
+        json.dumps({"updatedAt": now, "matches": results},
+                   ensure_ascii=False, indent=2), encoding="utf-8")
 
     ja, en = [], []
-    for stt, hid, aid, gh, ga, elapsed, ts in (live_news + ft_news)[:12]:
-        hja, hen = NAMES[hid]
-        aja, aen = NAMES[aid]
-        t = ts or (datetime.datetime.utcnow().isoformat() + "Z")
-        if stt == "LIVE":
-            ja.append({"time": t, "title": "🔴 LIVE",
-                       "body": f"{hja} {gh}-{ga} {aja}（{elapsed}'）", "tag": "速報"})
-            en.append({"time": t, "title": "🔴 LIVE",
-                       "body": f"{hen} {gh}-{ga} {aen} ({elapsed}')", "tag": "NEWS"})
-        else:
-            ja.append({"time": t, "title": "試合終了 ⚽",
-                       "body": f"{hja} {gh}-{ga} {aja}", "tag": "試合終了"})
-            en.append({"time": t, "title": "Full-time ⚽",
-                       "body": f"{hen} {gh}-{ga} {aen}", "tag": "FULL-TIME"})
+    for id1, id2, s1, s2, date in ft_news[-12:][::-1]:
+        ja.append({"time": (date or "") + "T12:00:00Z", "title": "試合終了 ⚽",
+                   "body": f"{NAMES[id1][0]} {s1}-{s2} {NAMES[id2][0]}", "tag": "試合終了"})
+        en.append({"time": (date or "") + "T12:00:00Z", "title": "Full-time ⚽",
+                   "body": f"{NAMES[id1][1]} {s1}-{s2} {NAMES[id2][1]}", "tag": "FULL-TIME"})
     (DATA / "news.json").write_text(
         json.dumps({"ja": ja, "en": en}, ensure_ascii=False, indent=2),
         encoding="utf-8")
 
-    print(f"wrote {len(matches)} results, {len(ja)} news")
+    print(f"fixtures={len(fixtures)} results={len(results)} news={len(ja)}")
 
 
 if __name__ == "__main__":

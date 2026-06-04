@@ -1,0 +1,725 @@
+{
+  "updatedAt": "2026-06-04T03:15:51.236425Z",
+  "matches": {
+    "MEX|RSA": {
+      "y": 2026,
+      "mo": 6,
+      "d": 11,
+      "h": 13,
+      "mi": 0,
+      "off": -6,
+      "tz": "UTC-6",
+      "ground": "Mexico City"
+    },
+    "CZE|KOR": {
+      "y": 2026,
+      "mo": 6,
+      "d": 11,
+      "h": 20,
+      "mi": 0,
+      "off": -6,
+      "tz": "UTC-6",
+      "ground": "Guadalajara (Zapopan)"
+    },
+    "CZE|RSA": {
+      "y": 2026,
+      "mo": 6,
+      "d": 18,
+      "h": 12,
+      "mi": 0,
+      "off": -4,
+      "tz": "UTC-4",
+      "ground": "Atlanta"
+    },
+    "KOR|MEX": {
+      "y": 2026,
+      "mo": 6,
+      "d": 18,
+      "h": 19,
+      "mi": 0,
+      "off": -6,
+      "tz": "UTC-6",
+      "ground": "Guadalajara (Zapopan)"
+    },
+    "CZE|MEX": {
+      "y": 2026,
+      "mo": 6,
+      "d": 24,
+      "h": 19,
+      "mi": 0,
+      "off": -6,
+      "tz": "UTC-6",
+      "ground": "Mexico City"
+    },
+    "KOR|RSA": {
+      "y": 2026,
+      "mo": 6,
+      "d": 24,
+      "h": 19,
+      "mi": 0,
+      "off": -6,
+      "tz": "UTC-6",
+      "ground": "Monterrey (Guadalupe)"
+    },
+    "BIH|CAN": {
+      "y": 2026,
+      "mo": 6,
+      "d": 12,
+      "h": 15,
+      "mi": 0,
+      "off": -4,
+      "tz": "UTC-4",
+      "ground": "Toronto"
+    },
+    "QAT|SUI": {
+      "y": 2026,
+      "mo": 6,
+      "d": 13,
+      "h": 12,
+      "mi": 0,
+      "off": -7,
+      "tz": "UTC-7",
+      "ground": "San Francisco Bay Area (Santa Clara)"
+    },
+    "BIH|SUI": {
+      "y": 2026,
+      "mo": 6,
+      "d": 18,
+      "h": 12,
+      "mi": 0,
+      "off": -7,
+      "tz": "UTC-7",
+      "ground": "Los Angeles (Inglewood)"
+    },
+    "CAN|QAT": {
+      "y": 2026,
+      "mo": 6,
+      "d": 18,
+      "h": 15,
+      "mi": 0,
+      "off": -7,
+      "tz": "UTC-7",
+      "ground": "Vancouver"
+    },
+    "CAN|SUI": {
+      "y": 2026,
+      "mo": 6,
+      "d": 24,
+      "h": 12,
+      "mi": 0,
+      "off": -7,
+      "tz": "UTC-7",
+      "ground": "Vancouver"
+    },
+    "BIH|QAT": {
+      "y": 2026,
+      "mo": 6,
+      "d": 24,
+      "h": 12,
+      "mi": 0,
+      "off": -7,
+      "tz": "UTC-7",
+      "ground": "Seattle"
+    },
+    "BRA|MAR": {
+      "y": 2026,
+      "mo": 6,
+      "d": 13,
+      "h": 18,
+      "mi": 0,
+      "off": -4,
+      "tz": "UTC-4",
+      "ground": "New York/New Jersey (East Rutherford)"
+    },
+    "HAI|SCO": {
+      "y": 2026,
+      "mo": 6,
+      "d": 13,
+      "h": 21,
+      "mi": 0,
+      "off": -4,
+      "tz": "UTC-4",
+      "ground": "Boston (Foxborough)"
+    },
+    "MAR|SCO": {
+      "y": 2026,
+      "mo": 6,
+      "d": 19,
+      "h": 18,
+      "mi": 0,
+      "off": -4,
+      "tz": "UTC-4",
+      "ground": "Boston (Foxborough)"
+    },
+    "BRA|HAI": {
+      "y": 2026,
+      "mo": 6,
+      "d": 19,
+      "h": 20,
+      "mi": 30,
+      "off": -4,
+      "tz": "UTC-4",
+      "ground": "Philadelphia"
+    },
+    "BRA|SCO": {
+      "y": 2026,
+      "mo": 6,
+      "d": 24,
+      "h": 18,
+      "mi": 0,
+      "off": -4,
+      "tz": "UTC-4",
+      "ground": "Miami (Miami Gardens)"
+    },
+    "HAI|MAR": {
+      "y": 2026,
+      "mo": 6,
+      "d": 24,
+      "h": 18,
+      "mi": 0,
+      "off": -4,
+      "tz": "UTC-4",
+      "ground": "Atlanta"
+    },
+    "PAR|USA": {
+      "y": 2026,
+      "mo": 6,
+      "d": 12,
+      "h": 18,
+      "mi": 0,
+      "off": -7,
+      "tz": "UTC-7",
+      "ground": "Los Angeles (Inglewood)"
+    },
+    "AUS|TUR": {
+      "y": 2026,
+      "mo": 6,
+      "d": 13,
+      "h": 21,
+      "mi": 0,
+      "off": -7,
+      "tz": "UTC-7",
+      "ground": "Vancouver"
+    },
+    "AUS|USA": {
+      "y": 2026,
+      "mo": 6,
+      "d": 19,
+      "h": 12,
+      "mi": 0,
+      "off": -7,
+      "tz": "UTC-7",
+      "ground": "Seattle"
+    },
+    "PAR|TUR": {
+      "y": 2026,
+      "mo": 6,
+      "d": 19,
+      "h": 20,
+      "mi": 0,
+      "off": -7,
+      "tz": "UTC-7",
+      "ground": "San Francisco Bay Area (Santa Clara)"
+    },
+    "TUR|USA": {
+      "y": 2026,
+      "mo": 6,
+      "d": 25,
+      "h": 19,
+      "mi": 0,
+      "off": -7,
+      "tz": "UTC-7",
+      "ground": "Los Angeles (Inglewood)"
+    },
+    "AUS|PAR": {
+      "y": 2026,
+      "mo": 6,
+      "d": 25,
+      "h": 19,
+      "mi": 0,
+      "off": -7,
+      "tz": "UTC-7",
+      "ground": "San Francisco Bay Area (Santa Clara)"
+    },
+    "CUW|GER": {
+      "y": 2026,
+      "mo": 6,
+      "d": 14,
+      "h": 12,
+      "mi": 0,
+      "off": -5,
+      "tz": "UTC-5",
+      "ground": "Houston"
+    },
+    "CIV|ECU": {
+      "y": 2026,
+      "mo": 6,
+      "d": 14,
+      "h": 19,
+      "mi": 0,
+      "off": -4,
+      "tz": "UTC-4",
+      "ground": "Philadelphia"
+    },
+    "CIV|GER": {
+      "y": 2026,
+      "mo": 6,
+      "d": 20,
+      "h": 16,
+      "mi": 0,
+      "off": -4,
+      "tz": "UTC-4",
+      "ground": "Toronto"
+    },
+    "CUW|ECU": {
+      "y": 2026,
+      "mo": 6,
+      "d": 20,
+      "h": 19,
+      "mi": 0,
+      "off": -5,
+      "tz": "UTC-5",
+      "ground": "Kansas City"
+    },
+    "CIV|CUW": {
+      "y": 2026,
+      "mo": 6,
+      "d": 25,
+      "h": 16,
+      "mi": 0,
+      "off": -4,
+      "tz": "UTC-4",
+      "ground": "Philadelphia"
+    },
+    "ECU|GER": {
+      "y": 2026,
+      "mo": 6,
+      "d": 25,
+      "h": 16,
+      "mi": 0,
+      "off": -4,
+      "tz": "UTC-4",
+      "ground": "New York/New Jersey (East Rutherford)"
+    },
+    "JPN|NED": {
+      "y": 2026,
+      "mo": 6,
+      "d": 14,
+      "h": 15,
+      "mi": 0,
+      "off": -5,
+      "tz": "UTC-5",
+      "ground": "Dallas (Arlington)"
+    },
+    "SWE|TUN": {
+      "y": 2026,
+      "mo": 6,
+      "d": 14,
+      "h": 20,
+      "mi": 0,
+      "off": -6,
+      "tz": "UTC-6",
+      "ground": "Monterrey (Guadalupe)"
+    },
+    "NED|SWE": {
+      "y": 2026,
+      "mo": 6,
+      "d": 20,
+      "h": 12,
+      "mi": 0,
+      "off": -5,
+      "tz": "UTC-5",
+      "ground": "Houston"
+    },
+    "JPN|TUN": {
+      "y": 2026,
+      "mo": 6,
+      "d": 20,
+      "h": 22,
+      "mi": 0,
+      "off": -6,
+      "tz": "UTC-6",
+      "ground": "Monterrey (Guadalupe)"
+    },
+    "JPN|SWE": {
+      "y": 2026,
+      "mo": 6,
+      "d": 25,
+      "h": 18,
+      "mi": 0,
+      "off": -5,
+      "tz": "UTC-5",
+      "ground": "Dallas (Arlington)"
+    },
+    "NED|TUN": {
+      "y": 2026,
+      "mo": 6,
+      "d": 25,
+      "h": 18,
+      "mi": 0,
+      "off": -5,
+      "tz": "UTC-5",
+      "ground": "Kansas City"
+    },
+    "BEL|EGY": {
+      "y": 2026,
+      "mo": 6,
+      "d": 15,
+      "h": 12,
+      "mi": 0,
+      "off": -7,
+      "tz": "UTC-7",
+      "ground": "Seattle"
+    },
+    "IRN|NZL": {
+      "y": 2026,
+      "mo": 6,
+      "d": 15,
+      "h": 18,
+      "mi": 0,
+      "off": -7,
+      "tz": "UTC-7",
+      "ground": "Los Angeles (Inglewood)"
+    },
+    "BEL|IRN": {
+      "y": 2026,
+      "mo": 6,
+      "d": 21,
+      "h": 12,
+      "mi": 0,
+      "off": -7,
+      "tz": "UTC-7",
+      "ground": "Los Angeles (Inglewood)"
+    },
+    "EGY|NZL": {
+      "y": 2026,
+      "mo": 6,
+      "d": 21,
+      "h": 18,
+      "mi": 0,
+      "off": -7,
+      "tz": "UTC-7",
+      "ground": "Vancouver"
+    },
+    "EGY|IRN": {
+      "y": 2026,
+      "mo": 6,
+      "d": 26,
+      "h": 20,
+      "mi": 0,
+      "off": -7,
+      "tz": "UTC-7",
+      "ground": "Seattle"
+    },
+    "BEL|NZL": {
+      "y": 2026,
+      "mo": 6,
+      "d": 26,
+      "h": 20,
+      "mi": 0,
+      "off": -7,
+      "tz": "UTC-7",
+      "ground": "Vancouver"
+    },
+    "CPV|ESP": {
+      "y": 2026,
+      "mo": 6,
+      "d": 15,
+      "h": 12,
+      "mi": 0,
+      "off": -4,
+      "tz": "UTC-4",
+      "ground": "Atlanta"
+    },
+    "KSA|URU": {
+      "y": 2026,
+      "mo": 6,
+      "d": 15,
+      "h": 18,
+      "mi": 0,
+      "off": -4,
+      "tz": "UTC-4",
+      "ground": "Miami (Miami Gardens)"
+    },
+    "ESP|KSA": {
+      "y": 2026,
+      "mo": 6,
+      "d": 21,
+      "h": 12,
+      "mi": 0,
+      "off": -4,
+      "tz": "UTC-4",
+      "ground": "Atlanta"
+    },
+    "CPV|URU": {
+      "y": 2026,
+      "mo": 6,
+      "d": 21,
+      "h": 18,
+      "mi": 0,
+      "off": -4,
+      "tz": "UTC-4",
+      "ground": "Miami (Miami Gardens)"
+    },
+    "CPV|KSA": {
+      "y": 2026,
+      "mo": 6,
+      "d": 26,
+      "h": 19,
+      "mi": 0,
+      "off": -5,
+      "tz": "UTC-5",
+      "ground": "Houston"
+    },
+    "ESP|URU": {
+      "y": 2026,
+      "mo": 6,
+      "d": 26,
+      "h": 18,
+      "mi": 0,
+      "off": -6,
+      "tz": "UTC-6",
+      "ground": "Guadalajara (Zapopan)"
+    },
+    "FRA|SEN": {
+      "y": 2026,
+      "mo": 6,
+      "d": 16,
+      "h": 15,
+      "mi": 0,
+      "off": -4,
+      "tz": "UTC-4",
+      "ground": "New York/New Jersey (East Rutherford)"
+    },
+    "IRQ|NOR": {
+      "y": 2026,
+      "mo": 6,
+      "d": 16,
+      "h": 18,
+      "mi": 0,
+      "off": -4,
+      "tz": "UTC-4",
+      "ground": "Boston (Foxborough)"
+    },
+    "FRA|IRQ": {
+      "y": 2026,
+      "mo": 6,
+      "d": 22,
+      "h": 17,
+      "mi": 0,
+      "off": -4,
+      "tz": "UTC-4",
+      "ground": "Philadelphia"
+    },
+    "NOR|SEN": {
+      "y": 2026,
+      "mo": 6,
+      "d": 22,
+      "h": 20,
+      "mi": 0,
+      "off": -4,
+      "tz": "UTC-4",
+      "ground": "New York/New Jersey (East Rutherford)"
+    },
+    "FRA|NOR": {
+      "y": 2026,
+      "mo": 6,
+      "d": 26,
+      "h": 15,
+      "mi": 0,
+      "off": -4,
+      "tz": "UTC-4",
+      "ground": "Boston (Foxborough)"
+    },
+    "IRQ|SEN": {
+      "y": 2026,
+      "mo": 6,
+      "d": 26,
+      "h": 15,
+      "mi": 0,
+      "off": -4,
+      "tz": "UTC-4",
+      "ground": "Toronto"
+    },
+    "ARG|DZA": {
+      "y": 2026,
+      "mo": 6,
+      "d": 16,
+      "h": 20,
+      "mi": 0,
+      "off": -5,
+      "tz": "UTC-5",
+      "ground": "Kansas City"
+    },
+    "AUT|JOR": {
+      "y": 2026,
+      "mo": 6,
+      "d": 16,
+      "h": 21,
+      "mi": 0,
+      "off": -7,
+      "tz": "UTC-7",
+      "ground": "San Francisco Bay Area (Santa Clara)"
+    },
+    "ARG|AUT": {
+      "y": 2026,
+      "mo": 6,
+      "d": 22,
+      "h": 12,
+      "mi": 0,
+      "off": -5,
+      "tz": "UTC-5",
+      "ground": "Dallas (Arlington)"
+    },
+    "DZA|JOR": {
+      "y": 2026,
+      "mo": 6,
+      "d": 22,
+      "h": 20,
+      "mi": 0,
+      "off": -7,
+      "tz": "UTC-7",
+      "ground": "San Francisco Bay Area (Santa Clara)"
+    },
+    "AUT|DZA": {
+      "y": 2026,
+      "mo": 6,
+      "d": 27,
+      "h": 21,
+      "mi": 0,
+      "off": -5,
+      "tz": "UTC-5",
+      "ground": "Kansas City"
+    },
+    "ARG|JOR": {
+      "y": 2026,
+      "mo": 6,
+      "d": 27,
+      "h": 21,
+      "mi": 0,
+      "off": -5,
+      "tz": "UTC-5",
+      "ground": "Dallas (Arlington)"
+    },
+    "COD|POR": {
+      "y": 2026,
+      "mo": 6,
+      "d": 17,
+      "h": 12,
+      "mi": 0,
+      "off": -5,
+      "tz": "UTC-5",
+      "ground": "Houston"
+    },
+    "COL|UZB": {
+      "y": 2026,
+      "mo": 6,
+      "d": 17,
+      "h": 20,
+      "mi": 0,
+      "off": -6,
+      "tz": "UTC-6",
+      "ground": "Mexico City"
+    },
+    "POR|UZB": {
+      "y": 2026,
+      "mo": 6,
+      "d": 23,
+      "h": 12,
+      "mi": 0,
+      "off": -5,
+      "tz": "UTC-5",
+      "ground": "Houston"
+    },
+    "COD|COL": {
+      "y": 2026,
+      "mo": 6,
+      "d": 23,
+      "h": 20,
+      "mi": 0,
+      "off": -6,
+      "tz": "UTC-6",
+      "ground": "Guadalajara (Zapopan)"
+    },
+    "COL|POR": {
+      "y": 2026,
+      "mo": 6,
+      "d": 27,
+      "h": 19,
+      "mi": 30,
+      "off": -4,
+      "tz": "UTC-4",
+      "ground": "Miami (Miami Gardens)"
+    },
+    "COD|UZB": {
+      "y": 2026,
+      "mo": 6,
+      "d": 27,
+      "h": 19,
+      "mi": 30,
+      "off": -4,
+      "tz": "UTC-4",
+      "ground": "Atlanta"
+    },
+    "CRO|ENG": {
+      "y": 2026,
+      "mo": 6,
+      "d": 17,
+      "h": 15,
+      "mi": 0,
+      "off": -5,
+      "tz": "UTC-5",
+      "ground": "Dallas (Arlington)"
+    },
+    "GHA|PAN": {
+      "y": 2026,
+      "mo": 6,
+      "d": 17,
+      "h": 19,
+      "mi": 0,
+      "off": -4,
+      "tz": "UTC-4",
+      "ground": "Toronto"
+    },
+    "ENG|GHA": {
+      "y": 2026,
+      "mo": 6,
+      "d": 23,
+      "h": 16,
+      "mi": 0,
+      "off": -4,
+      "tz": "UTC-4",
+      "ground": "Boston (Foxborough)"
+    },
+    "CRO|PAN": {
+      "y": 2026,
+      "mo": 6,
+      "d": 23,
+      "h": 19,
+      "mi": 0,
+      "off": -4,
+      "tz": "UTC-4",
+      "ground": "Toronto"
+    },
+    "ENG|PAN": {
+      "y": 2026,
+      "mo": 6,
+      "d": 27,
+      "h": 17,
+      "mi": 0,
+      "off": -4,
+      "tz": "UTC-4",
+      "ground": "New York/New Jersey (East Rutherford)"
+    },
+    "CRO|GHA": {
+      "y": 2026,
+      "mo": 6,
+      "d": 27,
+      "h": 17,
+      "mi": 0,
+      "off": -4,
+      "tz": "UTC-4",
+      "ground": "Philadelphia"
+    }
+  }
+}

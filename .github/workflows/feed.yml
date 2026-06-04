@@ -23,9 +23,7 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Fetch results from API-Football
-        env:
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+      - name: Fetch fixtures/results from openfootball (no key required)
         run: python scripts/fetch_results.py
 
       - name: Commit & push if changed

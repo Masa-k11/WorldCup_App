@@ -1,0 +1,18 @@
+{
+  "ja": [
+    {
+      "time": "2026-06-04T12:00:00",
+      "title": "📡 配信テスト",
+      "body": "GitHubからの受信が有効になりました（この項目は削除してOK）",
+      "tag": "速報"
+    }
+  ],
+  "en": [
+    {
+      "time": "2026-06-04T12:00:00",
+      "title": "📡 Feed test",
+      "body": "Data delivery from GitHub is live (you can delete this item)",
+      "tag": "NEWS"
+    }
+  ]
+}

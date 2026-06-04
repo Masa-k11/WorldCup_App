@@ -20,6 +20,14 @@ DATA = pathlib.Path(__file__).resolve().parent.parent / "data"
 # 日本語サッカーRSS。見出し＋出典＋リンクのみを扱う（本文/要約は転載しない）。
 RSS_FEEDS = [
     ("サッカーキング", "https://www.soccer-king.jp/feed"),
+    ("フットボールチャンネル", "https://www.footballchannel.jp/feed"),
+    ("ワールドサッカーダイジェスト", "https://web.ultra-soccer.jp/rss"),
+]
+
+# W杯/代表に関連する見出しだけ通すキーワード。
+WC_KEYWORDS = [
+    "W杯", "Ｗ杯", "ワールドカップ", "北中米", "FIFA", "ＦＩＦＡ",
+    "日本代表", "代表", "森保", "2026", "２０２６",
 ]
 
 
@@ -30,19 +38,22 @@ def _rss_time(pub):
         return datetime.datetime.now(datetime.timezone.utc).isoformat()
 
 
-def fetch_rss(limit=8):
-    out = []
+def fetch_rss(per_feed=20):
+    out, seen = [], set()
     for source, url in RSS_FEEDS:
         try:
             req = urllib.request.Request(
                 url, headers={"User-Agent": "Mozilla/5.0 wc26"})
             data = urllib.request.urlopen(req, timeout=20).read()
             root = ET.fromstring(data)
-            for it in root.findall(".//item")[:limit]:
+            for it in root.findall(".//item")[:per_feed]:
                 title = (it.findtext("title") or "").strip()
                 link = (it.findtext("link") or "").strip()
-                if not title:
+                if not title or title in seen:
                     continue
+                if not any(k in title for k in WC_KEYWORDS):
+                    continue  # W杯/代表に無関係な見出しは除外
+                seen.add(title)
                 out.append({"time": _rss_time(it.findtext("pubDate") or ""),
                             "title": title, "body": source, "tag": "ニュース",
                             "url": link})

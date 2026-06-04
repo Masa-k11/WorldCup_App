@@ -198,8 +198,10 @@ def main():
             h = ALIAS.get(norm(m.get("team1", ""))) or m.get("team1", "")
             a = ALIAS.get(norm(m.get("team2", ""))) or m.get("team2", "")
             s1, s2 = score_of(m)
+            hh, mi, off, tz = parse_time(m.get("time", ""))
             ties.append({"date": m.get("date"), "ground": m.get("ground", ""),
-                         "home": h, "away": a, "hs": s1, "as": s2})
+                         "home": h, "away": a, "hs": s1, "as": s2,
+                         "h": hh, "mi": mi, "off": off, "tz": tz})
         bracket_rounds.append({"key": key, "ties": ties})
 
     now = datetime.datetime.now(datetime.timezone.utc).isoformat()

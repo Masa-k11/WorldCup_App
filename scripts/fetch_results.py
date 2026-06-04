@@ -149,6 +149,7 @@ def main():
     matches = d.get("matches", []) or []
 
     fixtures, results, ft_news = {}, {}, []
+    scorers = {}  # (選手名, teamId) -> {"goals":n, "pen":n}
     for m in matches:
         id1 = ALIAS.get(norm(m.get("team1", "")))
         id2 = ALIAS.get(norm(m.get("team2", "")))
@@ -163,6 +164,25 @@ def main():
         if s1 is not None and s2 is not None:
             results[key] = {id1: s1, id2: s2, "st": "FT", "min": 90}
             ft_news.append((id1, id2, s1, s2, m.get("date")))
+        # 得点者の集計（オウンゴールは除外。team1の得点者=id1, team2=id2）
+        for goals, tid in ((m.get("goals1") or [], id1),
+                           (m.get("goals2") or [], id2)):
+            for g in goals:
+                if not isinstance(g, dict) or g.get("owngoal"):
+                    continue
+                name = (g.get("name") or "").strip()
+                if not name:
+                    continue
+                rec = scorers.setdefault((name, tid), {"goals": 0, "pen": 0})
+                rec["goals"] += 1
+                if g.get("penalty"):
+                    rec["pen"] += 1
+
+    # 得点ランキング（得点数→PK少ない順）上位15名
+    top = [{"name": n, "team": tid, "goals": v["goals"], "pen": v["pen"]}
+           for (n, tid), v in scorers.items()]
+    top.sort(key=lambda x: (-x["goals"], x["pen"], x["name"]))
+    top = top[:15]
 
     # 決勝トーナメント表（仮枠ラベル→確定したら実チームID）
     KO = [("Round of 32", "R32"), ("Round of 16", "R16"),
@@ -192,6 +212,9 @@ def main():
     (DATA / "results.json").write_text(
         json.dumps({"updatedAt": now, "matches": results},
                    ensure_ascii=False, indent=2), encoding="utf-8")
+    (DATA / "scorers.json").write_text(
+        json.dumps({"updatedAt": now, "top": top},
+                   ensure_ascii=False, indent=2), encoding="utf-8")
 
     # ja = RSS見出し（出典＋リンク）＋ 試合終了の自動速報、時刻降順で混在
     ja = list(fetch_rss())
@@ -209,7 +232,8 @@ def main():
         json.dumps({"ja": ja, "en": en}, ensure_ascii=False, indent=2),
         encoding="utf-8")
 
-    print(f"fixtures={len(fixtures)} results={len(results)} news={len(ja)}")
+    print(f"fixtures={len(fixtures)} results={len(results)} "
+          f"scorers={len(top)} news={len(ja)}")
 
 
 if __name__ == "__main__":

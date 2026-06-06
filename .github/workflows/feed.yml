@@ -2,8 +2,12 @@ name: WC2026 data feed
 
 on:
   schedule:
-    # 15分ごと（openfootballはキー不要・レート制限なし。試合数に依らず無料）。
-    - cron: "*/15 * * * *"
+    # 5分ごと。GitHub Actions の cron はこれが最短（公式仕様で最小5分）。
+    # publicリポなのでActions分は無料・無制限。openfootballはキー不要・
+    # レート制限なしのため5分間隔でも破綻しない。変更があった時だけcommit。
+    # ※ただし実際の鮮度は「cronの遅延」「openfootball側の更新タイミング」
+    #   「raw.githubusercontentのCDNキャッシュ(約5分)」にも左右される。
+    - cron: "*/5 * * * *"
   workflow_dispatch: {} # 手動実行ボタン
 
 permissions:

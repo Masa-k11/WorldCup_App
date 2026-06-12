@@ -143,13 +143,86 @@ def score_of(m):
     return None, None
 
 
+# ESPN公開スコアボード（キー不要）。openfootballより速報性が高く、
+# LIVEの経過分・得点者まで取れるため、結果/経過の主ソースとして使う。
+# openfootballは日程・ブラケット構造・フォールバックとして併用。
+ESPN = ("https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/"
+        "scoreboard?dates=20260611-20260719&limit=300")
+
+
+def _espn_tid(team):
+    for k in ("displayName", "name", "shortDisplayName", "location"):
+        tid = ALIAS.get(norm(team.get(k) or ""))
+        if tid:
+            return tid
+    return None
+
+
+def fetch_espn():
+    """ESPNから (results, goals_by_pair, ft_list) を返す。失敗時は空。"""
+    results, goals, ft = {}, {}, []
+    try:
+        d = json.load(urllib.request.urlopen(
+            urllib.request.Request(ESPN, headers={"User-Agent": "Mozilla/5.0"}),
+            timeout=30))
+    except Exception as e:
+        print("espn error", e)
+        return results, goals, ft
+    for ev in d.get("events", []) or []:
+        try:
+            comp = ev["competitions"][0]
+            cs = comp.get("competitors", [])
+            home = next(c for c in cs if c.get("homeAway") == "home")
+            away = next(c for c in cs if c.get("homeAway") == "away")
+            id1, id2 = _espn_tid(home["team"]), _espn_tid(away["team"])
+            if not id1 or not id2:
+                continue
+            stt = comp.get("status", {})
+            state = (stt.get("type") or {}).get("state")  # pre/in/post
+            if state not in ("in", "post"):
+                continue
+            s1 = int(home.get("score") or 0)
+            s2 = int(away.get("score") or 0)
+            if state == "post":
+                st, mn = "FT", 90
+            else:
+                detail = (stt.get("type") or {}).get("shortDetail", "")
+                if "HT" in detail or "Half" in detail:
+                    st, mn = "HT", 45
+                else:
+                    st = "LIVE"
+                    mm = re.match(r"(\d+)", stt.get("displayClock") or "")
+                    mn = int(mm.group(1)) if mm else None
+            key = pairkey(id1, id2)
+            results[key] = {id1: s1, id2: s2, "st": st, "min": mn}
+            if state == "post":
+                ft.append((id1, id2, s1, s2, (ev.get("date") or "")[:10]))
+            # 得点者（scoringPlay。オウンゴール除外・PKフラグあり）
+            espn_home = str(home["team"].get("id"))
+            sc = []
+            for p in comp.get("details") or []:
+                if not p.get("scoringPlay") or p.get("ownGoal"):
+                    continue
+                ath = (p.get("athletesInvolved") or [{}])[0]
+                name = (ath.get("displayName") or "").strip()
+                if not name:
+                    continue
+                tid = id1 if str((p.get("team") or {}).get("id")) == espn_home else id2
+                sc.append((name, tid, bool(p.get("penaltyKick"))))
+            if sc:
+                goals[key] = sc
+        except Exception:
+            continue
+    return results, goals, ft
+
+
 def main():
     d = json.load(urllib.request.urlopen(
         urllib.request.Request(SRC, headers={"User-Agent": "wc26"}), timeout=30))
     matches = d.get("matches", []) or []
 
     fixtures, results, ft_news = {}, {}, []
-    scorers = {}  # (選手名, teamId) -> {"goals":n, "pen":n}
+    of_goals = {}  # pairkey -> [(name, tid, penalty)] openfootball由来の得点者
     for m in matches:
         id1 = ALIAS.get(norm(m.get("team1", "")))
         id2 = ALIAS.get(norm(m.get("team2", "")))
@@ -164,19 +237,36 @@ def main():
         if s1 is not None and s2 is not None:
             results[key] = {id1: s1, id2: s2, "st": "FT", "min": 90}
             ft_news.append((id1, id2, s1, s2, m.get("date")))
-        # 得点者の集計（オウンゴールは除外。team1の得点者=id1, team2=id2）
-        for goals, tid in ((m.get("goals1") or [], id1),
-                           (m.get("goals2") or [], id2)):
-            for g in goals:
+        # 得点者（オウンゴールは除外。team1の得点者=id1, team2=id2）
+        sc = []
+        for goals_, tid in ((m.get("goals1") or [], id1),
+                            (m.get("goals2") or [], id2)):
+            for g in goals_:
                 if not isinstance(g, dict) or g.get("owngoal"):
                     continue
                 name = (g.get("name") or "").strip()
-                if not name:
-                    continue
-                rec = scorers.setdefault((name, tid), {"goals": 0, "pen": 0})
-                rec["goals"] += 1
-                if g.get("penalty"):
-                    rec["pen"] += 1
+                if name:
+                    sc.append((name, tid, bool(g.get("penalty"))))
+        if sc:
+            of_goals[key] = sc
+
+    # ===== ESPNを上書き統合（速報性で優先。LIVE経過もここから） =====
+    espn_res, espn_goals, espn_ft = fetch_espn()
+    seen_ft = {pairkey(a, b) for a, b, *_ in ft_news}
+    for key, val in espn_res.items():
+        results[key] = val  # ESPNが新しい・LIVE対応のため常に優先
+    for a, b, s1, s2, dt in espn_ft:
+        if pairkey(a, b) not in seen_ft:
+            ft_news.append((a, b, s1, s2, dt))
+
+    # ===== 得点集計（試合ごとに openfootball優先・無ければESPN。二重計上なし） =====
+    scorers = {}
+    for key in set(of_goals) | set(espn_goals):
+        for name, tid, pen in (of_goals.get(key) or espn_goals.get(key) or []):
+            rec = scorers.setdefault((name, tid), {"goals": 0, "pen": 0})
+            rec["goals"] += 1
+            if pen:
+                rec["pen"] += 1
 
     # 得点ランキング（得点数→PK少ない順）上位15名
     top = [{"name": n, "team": tid, "goals": v["goals"], "pen": v["pen"]}
@@ -199,6 +289,11 @@ def main():
             a = ALIAS.get(norm(m.get("team2", ""))) or m.get("team2", "")
             s1, s2 = score_of(m)
             hh, mi, off, tz = parse_time(m.get("time", ""))
+            # openfootballにスコアが無くてもESPN(results)にあれば補完
+            if s1 is None and h in NAMES and a in NAMES:
+                r = results.get(pairkey(h, a))
+                if r and r.get("st") == "FT":
+                    s1, s2 = r.get(h), r.get(a)
             ties.append({"date": m.get("date"), "ground": m.get("ground", ""),
                          "home": h, "away": a, "hs": s1, "as": s2,
                          "h": hh, "mi": mi, "off": off, "tz": tz})

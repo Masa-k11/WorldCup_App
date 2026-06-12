@@ -1,4 +1,35 @@
 {
-  "updatedAt": "2026-06-12T01:40:41.667098+00:00",
-  "top": []
+  "updatedAt": "2026-06-12T06:20:50.085762+00:00",
+  "top": [
+    {
+      "name": "Hwang In-Beom",
+      "team": "KOR",
+      "goals": 1,
+      "pen": 0
+    },
+    {
+      "name": "Julián Quiñones",
+      "team": "MEX",
+      "goals": 1,
+      "pen": 0
+    },
+    {
+      "name": "Ladislav Krejcí",
+      "team": "CZE",
+      "goals": 1,
+      "pen": 0
+    },
+    {
+      "name": "Oh Hyeon-Gyu",
+      "team": "KOR",
+      "goals": 1,
+      "pen": 0
+    },
+    {
+      "name": "Raúl Jiménez",
+      "team": "MEX",
+      "goals": 1,
+      "pen": 0
+    }
+  ]
 }

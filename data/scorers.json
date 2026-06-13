@@ -1,9 +1,21 @@
 {
-  "updatedAt": "2026-06-13T00:08:24.627614+00:00",
+  "updatedAt": "2026-06-13T04:52:19.833773+00:00",
   "top": [
+    {
+      "name": "Folarin Balogun",
+      "team": "USA",
+      "goals": 2,
+      "pen": 0
+    },
     {
       "name": "Cyle Larin",
       "team": "CAN",
+      "goals": 1,
+      "pen": 0
+    },
+    {
+      "name": "Giovanni Reyna",
+      "team": "USA",
       "goals": 1,
       "pen": 0
     },
@@ -28,6 +40,12 @@
     {
       "name": "Ladislav Krejcí",
       "team": "CZE",
+      "goals": 1,
+      "pen": 0
+    },
+    {
+      "name": "Mauricio",
+      "team": "PAR",
       "goals": 1,
       "pen": 0
     },

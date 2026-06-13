@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-13T19:00:07.393317+00:00",
+  "updatedAt": "2026-06-13T20:24:43.601333+00:00",
   "top": [
     {
       "name": "Folarin Balogun",
@@ -60,6 +60,12 @@
       "team": "MEX",
       "goals": 1,
       "pen": 0
+    },
+    {
+      "name": "Breel Embolo",
+      "team": "SUI",
+      "goals": 1,
+      "pen": 1
     }
   ]
 }

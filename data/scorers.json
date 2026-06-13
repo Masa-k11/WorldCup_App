@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-13T21:47:32.744324+00:00",
+  "updatedAt": "2026-06-13T22:51:07.674671+00:00",
   "top": [
     {
       "name": "Folarin Balogun",
@@ -28,6 +28,12 @@
     {
       "name": "Hwang In-Beom",
       "team": "KOR",
+      "goals": 1,
+      "pen": 0
+    },
+    {
+      "name": "Ismael Saibari",
+      "team": "MAR",
       "goals": 1,
       "pen": 0
     },
@@ -64,6 +70,12 @@
     {
       "name": "Raúl Jiménez",
       "team": "MEX",
+      "goals": 1,
+      "pen": 0
+    },
+    {
+      "name": "Vinícius Júnior",
+      "team": "BRA",
       "goals": 1,
       "pen": 0
     },

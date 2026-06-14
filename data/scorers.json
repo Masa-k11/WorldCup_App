@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T00:02:59.964213+00:00",
+  "updatedAt": "2026-06-14T05:03:49.996707+00:00",
   "top": [
     {
       "name": "Folarin Balogun",
@@ -38,6 +38,12 @@
       "pen": 0
     },
     {
+      "name": "John McGinn",
+      "team": "SCO",
+      "goals": 1,
+      "pen": 0
+    },
+    {
       "name": "Jovo Lukić",
       "team": "BIH",
       "goals": 1,
@@ -62,6 +68,12 @@
       "pen": 0
     },
     {
+      "name": "Nestory Irankunda",
+      "team": "AUS",
+      "goals": 1,
+      "pen": 0
+    },
+    {
       "name": "Oh Hyeon-Gyu",
       "team": "KOR",
       "goals": 1,
@@ -78,12 +90,6 @@
       "team": "BRA",
       "goals": 1,
       "pen": 0
-    },
-    {
-      "name": "Breel Embolo",
-      "team": "SUI",
-      "goals": 1,
-      "pen": 1
     }
   ]
 }

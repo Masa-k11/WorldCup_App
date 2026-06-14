@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T00:02:59.964213+00:00",
+  "updatedAt": "2026-06-14T05:03:49.996707+00:00",
   "matches": {
     "MEX|RSA": {
       "MEX": 2,
@@ -25,17 +25,29 @@
       "st": "FT",
       "min": 90
     },
+    "BRA|MAR": {
+      "BRA": 1,
+      "MAR": 1,
+      "st": "FT",
+      "min": 90
+    },
+    "HAI|SCO": {
+      "HAI": 0,
+      "SCO": 1,
+      "st": "FT",
+      "min": 90
+    },
     "PAR|USA": {
       "USA": 4,
       "PAR": 1,
       "st": "FT",
       "min": 90
     },
-    "BRA|MAR": {
-      "BRA": 1,
-      "MAR": 1,
-      "st": "LIVE",
-      "min": 90
+    "AUS|TUR": {
+      "AUS": 1,
+      "TUR": 0,
+      "st": "HT",
+      "min": 45
     }
   }
 }

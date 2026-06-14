@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T16:54:14.797007+00:00",
+  "updatedAt": "2026-06-14T18:16:40.625815+00:00",
   "top": [
     {
       "name": "Folarin Balogun",
@@ -26,6 +26,12 @@
       "pen": 0
     },
     {
+      "name": "Felix Nmecha",
+      "team": "GER",
+      "goals": 1,
+      "pen": 0
+    },
+    {
       "name": "Giovanni Reyna",
       "team": "USA",
       "goals": 1,
@@ -40,6 +46,12 @@
     {
       "name": "Ismael Saibari",
       "team": "MAR",
+      "goals": 1,
+      "pen": 0
+    },
+    {
+      "name": "Jamal Musiala",
+      "team": "GER",
       "goals": 1,
       "pen": 0
     },
@@ -68,26 +80,14 @@
       "pen": 0
     },
     {
+      "name": "Livano Comenencia",
+      "team": "CUW",
+      "goals": 1,
+      "pen": 0
+    },
+    {
       "name": "Mauricio",
       "team": "PAR",
-      "goals": 1,
-      "pen": 0
-    },
-    {
-      "name": "Nestory Irankunda",
-      "team": "AUS",
-      "goals": 1,
-      "pen": 0
-    },
-    {
-      "name": "Oh Hyeon-Gyu",
-      "team": "KOR",
-      "goals": 1,
-      "pen": 0
-    },
-    {
-      "name": "Raúl Jiménez",
-      "team": "MEX",
       "goals": 1,
       "pen": 0
     }

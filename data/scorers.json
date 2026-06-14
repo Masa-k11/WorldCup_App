@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T20:01:59.694166+00:00",
+  "updatedAt": "2026-06-14T21:36:13.059961+00:00",
   "top": [
     {
       "name": "Folarin Balogun",
@@ -22,6 +22,12 @@
     {
       "name": "Connor Metcalfe",
       "team": "AUS",
+      "goals": 1,
+      "pen": 0
+    },
+    {
+      "name": "Crysencio Summerville",
+      "team": "NED",
       "goals": 1,
       "pen": 0
     },
@@ -82,12 +88,6 @@
     {
       "name": "Julián Quiñones",
       "team": "MEX",
-      "goals": 1,
-      "pen": 0
-    },
-    {
-      "name": "Ladislav Krejcí",
-      "team": "CZE",
       "goals": 1,
       "pen": 0
     }

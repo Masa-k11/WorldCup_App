@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-15T20:05:51.977839+00:00",
+  "updatedAt": "2026-06-15T22:28:25.834967+00:00",
   "matches": {
     "MEX|RSA": {
       "MEX": 2,
@@ -73,17 +73,23 @@
       "st": "FT",
       "min": 90
     },
+    "BEL|EGY": {
+      "BEL": 1,
+      "EGY": 1,
+      "st": "FT",
+      "min": 90
+    },
     "CPV|ESP": {
       "ESP": 0,
       "CPV": 0,
       "st": "FT",
       "min": 90
     },
-    "BEL|EGY": {
-      "BEL": 0,
-      "EGY": 1,
-      "st": "HT",
-      "min": 45
+    "KSA|URU": {
+      "KSA": 0,
+      "URU": 0,
+      "st": "LIVE",
+      "min": 25
     }
   }
 }

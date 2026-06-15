@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-15T16:31:23.664299+00:00",
+  "updatedAt": "2026-06-15T20:05:51.977839+00:00",
   "top": [
     {
       "name": "Folarin Balogun",
@@ -68,6 +68,12 @@
       "pen": 0
     },
     {
+      "name": "Emam Ashour",
+      "team": "EGY",
+      "goals": 1,
+      "pen": 0
+    },
+    {
       "name": "Felix Nmecha",
       "team": "GER",
       "goals": 1,
@@ -82,12 +88,6 @@
     {
       "name": "Hwang In-Beom",
       "team": "KOR",
-      "goals": 1,
-      "pen": 0
-    },
-    {
-      "name": "Ismael Saibari",
-      "team": "MAR",
       "goals": 1,
       "pen": 0
     }

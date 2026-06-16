@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-16T19:06:35.712098+00:00",
+  "updatedAt": "2026-06-16T21:48:38.362690+00:00",
   "top": [
     {
       "name": "Elijah Just",
@@ -10,6 +10,12 @@
     {
       "name": "Folarin Balogun",
       "team": "USA",
+      "goals": 2,
+      "pen": 0
+    },
+    {
+      "name": "Kylian Mbappé",
+      "team": "FRA",
       "goals": 2,
       "pen": 0
     },
@@ -50,6 +56,12 @@
       "pen": 0
     },
     {
+      "name": "Bradley Barcola",
+      "team": "FRA",
+      "goals": 1,
+      "pen": 0
+    },
+    {
       "name": "Connor Metcalfe",
       "team": "AUS",
       "goals": 1,
@@ -75,18 +87,6 @@
     },
     {
       "name": "Deniz Undav",
-      "team": "GER",
-      "goals": 1,
-      "pen": 0
-    },
-    {
-      "name": "Emam Ashour",
-      "team": "EGY",
-      "goals": 1,
-      "pen": 0
-    },
-    {
-      "name": "Felix Nmecha",
       "team": "GER",
       "goals": 1,
       "pen": 0

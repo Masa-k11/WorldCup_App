@@ -1,6 +1,12 @@
 {
-  "updatedAt": "2026-06-17T01:45:17.644753+00:00",
+  "updatedAt": "2026-06-17T06:54:48.087960+00:00",
   "top": [
+    {
+      "name": "Lionel Messi",
+      "team": "ARG",
+      "goals": 3,
+      "pen": 0
+    },
     {
       "name": "Elijah Just",
       "team": "NZL",
@@ -50,6 +56,12 @@
       "pen": 0
     },
     {
+      "name": "Ali Olwan",
+      "team": "JOR",
+      "goals": 1,
+      "pen": 0
+    },
+    {
       "name": "Amad Diallo",
       "team": "CIV",
       "goals": 1,
@@ -76,18 +88,6 @@
     {
       "name": "Connor Metcalfe",
       "team": "AUS",
-      "goals": 1,
-      "pen": 0
-    },
-    {
-      "name": "Crysencio Summerville",
-      "team": "NED",
-      "goals": 1,
-      "pen": 0
-    },
-    {
-      "name": "Cyle Larin",
-      "team": "CAN",
       "goals": 1,
       "pen": 0
     }

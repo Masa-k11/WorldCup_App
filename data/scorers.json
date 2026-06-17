@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T20:29:54.784846+00:00",
+  "updatedAt": "2026-06-17T22:23:45.455392+00:00",
   "top": [
     {
       "name": "Lionel Messi",
@@ -36,6 +36,12 @@
       "team": "SWE",
       "goals": 2,
       "pen": 0
+    },
+    {
+      "name": "Harry Kane",
+      "team": "ENG",
+      "goals": 2,
+      "pen": 1
     },
     {
       "name": "Kai Havertz",
@@ -82,12 +88,6 @@
     {
       "name": "Bradley Barcola",
       "team": "FRA",
-      "goals": 1,
-      "pen": 0
-    },
-    {
-      "name": "Connor Metcalfe",
-      "team": "AUS",
       "goals": 1,
       "pen": 0
     }

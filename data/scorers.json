@@ -1,10 +1,16 @@
 {
-  "updatedAt": "2026-06-18T21:13:51.904173+00:00",
+  "updatedAt": "2026-06-18T23:12:25.159795+00:00",
   "top": [
     {
       "name": "Lionel Messi",
       "team": "ARG",
       "goals": 3,
+      "pen": 0
+    },
+    {
+      "name": "Cyle Larin",
+      "team": "CAN",
+      "goals": 2,
       "pen": 0
     },
     {
@@ -28,6 +34,12 @@
     {
       "name": "Johan Manzambi",
       "team": "SUI",
+      "goals": 2,
+      "pen": 0
+    },
+    {
+      "name": "Jonathan David",
+      "team": "CAN",
       "goals": 2,
       "pen": 0
     },
@@ -76,18 +88,6 @@
     {
       "name": "Ali Olwan",
       "team": "JOR",
-      "goals": 1,
-      "pen": 0
-    },
-    {
-      "name": "Amad Diallo",
-      "team": "CIV",
-      "goals": 1,
-      "pen": 0
-    },
-    {
-      "name": "Aymen Hussein",
-      "team": "IRQ",
       "goals": 1,
       "pen": 0
     }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T18:38:33.435412+00:00",
+  "updatedAt": "2026-06-18T21:13:51.904173+00:00",
   "top": [
     {
       "name": "Lionel Messi",
@@ -22,6 +22,12 @@
     {
       "name": "Folarin Balogun",
       "team": "USA",
+      "goals": 2,
+      "pen": 0
+    },
+    {
+      "name": "Johan Manzambi",
+      "team": "SUI",
       "goals": 2,
       "pen": 0
     },
@@ -82,12 +88,6 @@
     {
       "name": "Aymen Hussein",
       "team": "IRQ",
-      "goals": 1,
-      "pen": 0
-    },
-    {
-      "name": "Boualem Khoukhi",
-      "team": "QAT",
       "goals": 1,
       "pen": 0
     }

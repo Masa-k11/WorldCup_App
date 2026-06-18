@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T23:57:42.550607+00:00",
+  "updatedAt": "2026-06-18T04:55:03.619930+00:00",
   "top": [
     {
       "name": "Lionel Messi",
@@ -50,6 +50,12 @@
       "pen": 1
     },
     {
+      "name": "Abbosbek Fayzullaev",
+      "team": "UZB",
+      "goals": 1,
+      "pen": 0
+    },
+    {
       "name": "Abdulelah Al-Amri",
       "team": "KSA",
       "goals": 1,
@@ -82,12 +88,6 @@
     {
       "name": "Boualem Khoukhi",
       "team": "QAT",
-      "goals": 1,
-      "pen": 0
-    },
-    {
-      "name": "Bradley Barcola",
-      "team": "FRA",
       "goals": 1,
       "pen": 0
     }

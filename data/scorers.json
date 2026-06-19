@@ -1,6 +1,12 @@
 {
-  "updatedAt": "2026-06-18T23:12:25.159795+00:00",
+  "updatedAt": "2026-06-19T02:08:27.145423+00:00",
   "top": [
+    {
+      "name": "Jonathan David",
+      "team": "CAN",
+      "goals": 3,
+      "pen": 0
+    },
     {
       "name": "Lionel Messi",
       "team": "ARG",
@@ -34,12 +40,6 @@
     {
       "name": "Johan Manzambi",
       "team": "SUI",
-      "goals": 2,
-      "pen": 0
-    },
-    {
-      "name": "Jonathan David",
-      "team": "CAN",
       "goals": 2,
       "pen": 0
     },

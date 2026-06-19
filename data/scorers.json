@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T21:57:56.108832+00:00",
+  "updatedAt": "2026-06-19T23:09:51.467956+00:00",
   "top": [
     {
       "name": "Jonathan David",
@@ -34,6 +34,12 @@
     {
       "name": "Folarin Balogun",
       "team": "USA",
+      "goals": 2,
+      "pen": 0
+    },
+    {
+      "name": "Ismael Saibari",
+      "team": "MAR",
       "goals": 2,
       "pen": 0
     },
@@ -82,12 +88,6 @@
     {
       "name": "Alex Freeman",
       "team": "USA",
-      "goals": 1,
-      "pen": 0
-    },
-    {
-      "name": "Alexander Isak",
-      "team": "SWE",
       "goals": 1,
       "pen": 0
     }

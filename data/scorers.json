@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T23:09:51.467956+00:00",
+  "updatedAt": "2026-06-20T01:30:23.155588+00:00",
   "top": [
     {
       "name": "Jonathan David",
@@ -56,6 +56,18 @@
       "pen": 0
     },
     {
+      "name": "Matheus Cunha",
+      "team": "BRA",
+      "goals": 2,
+      "pen": 0
+    },
+    {
+      "name": "Vinícius Júnior",
+      "team": "BRA",
+      "goals": 2,
+      "pen": 0
+    },
+    {
       "name": "Yasin Ayari",
       "team": "SWE",
       "goals": 2,
@@ -76,18 +88,6 @@
     {
       "name": "Abbosbek Fayzullaev",
       "team": "UZB",
-      "goals": 1,
-      "pen": 0
-    },
-    {
-      "name": "Abdulelah Al-Amri",
-      "team": "KSA",
-      "goals": 1,
-      "pen": 0
-    },
-    {
-      "name": "Alex Freeman",
-      "team": "USA",
       "goals": 1,
       "pen": 0
     }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T18:20:44.891086+00:00",
+  "updatedAt": "2026-06-20T20:03:15.416899+00:00",
   "top": [
     {
       "name": "Jonathan David",
@@ -21,6 +21,12 @@
     },
     {
       "name": "Cody Gakpo",
+      "team": "NED",
+      "goals": 2,
+      "pen": 0
+    },
+    {
+      "name": "Crysencio Summerville",
       "team": "NED",
       "goals": 2,
       "pen": 0
@@ -84,12 +90,6 @@
       "team": "SWE",
       "goals": 2,
       "pen": 0
-    },
-    {
-      "name": "Harry Kane",
-      "team": "ENG",
-      "goals": 2,
-      "pen": 1
     }
   ]
 }

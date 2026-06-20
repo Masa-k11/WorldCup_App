@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T18:20:44.891086+00:00",
+  "updatedAt": "2026-06-20T20:03:15.416899+00:00",
   "matches": {
     "MEX|RSA": {
       "MEX": 2,
@@ -121,6 +121,12 @@
       "st": "FT",
       "min": 90
     },
+    "NED|SWE": {
+      "NED": 5,
+      "SWE": 1,
+      "st": "FT",
+      "min": 90
+    },
     "BEL|EGY": {
       "BEL": 1,
       "EGY": 1,
@@ -193,11 +199,11 @@
       "st": "FT",
       "min": 90
     },
-    "NED|SWE": {
-      "NED": 4,
-      "SWE": 1,
+    "CIV|GER": {
+      "GER": 0,
+      "CIV": 0,
       "st": "LIVE",
-      "min": 60
+      "min": 3
     }
   }
 }

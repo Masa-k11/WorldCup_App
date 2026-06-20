@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T20:03:15.416899+00:00",
+  "updatedAt": "2026-06-20T21:38:24.163440+00:00",
   "top": [
     {
       "name": "Jonathan David",
@@ -34,6 +34,12 @@
     {
       "name": "Cyle Larin",
       "team": "CAN",
+      "goals": 2,
+      "pen": 0
+    },
+    {
+      "name": "Deniz Undav",
+      "team": "GER",
       "goals": 2,
       "pen": 0
     },
@@ -82,12 +88,6 @@
     {
       "name": "Vinícius Júnior",
       "team": "BRA",
-      "goals": 2,
-      "pen": 0
-    },
-    {
-      "name": "Yasin Ayari",
-      "team": "SWE",
       "goals": 2,
       "pen": 0
     }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T00:00:00.522302+00:00",
+  "updatedAt": "2026-06-21T05:14:09.128113+00:00",
   "top": [
     {
       "name": "Deniz Undav",
@@ -44,6 +44,12 @@
       "pen": 0
     },
     {
+      "name": "Daichi Kamada",
+      "team": "JPN",
+      "goals": 2,
+      "pen": 0
+    },
+    {
       "name": "Elijah Just",
       "team": "NZL",
       "goals": 2,
@@ -81,12 +87,6 @@
     },
     {
       "name": "Matheus Cunha",
-      "team": "BRA",
-      "goals": 2,
-      "pen": 0
-    },
-    {
-      "name": "Vinícius Júnior",
       "team": "BRA",
       "goals": 2,
       "pen": 0

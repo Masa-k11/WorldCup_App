@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T11:16:16.737835+00:00",
+  "updatedAt": "2026-06-22T16:05:08.194907+00:00",
   "rounds": [
     {
       "key": "R32",
@@ -19,7 +19,7 @@
         {
           "date": "2026-06-29",
           "ground": "Boston (Foxborough)",
-          "home": "1E",
+          "home": "GER",
           "away": "3A/B/C/D/F",
           "hs": null,
           "as": null,
@@ -79,7 +79,7 @@
         {
           "date": "2026-06-30",
           "ground": "Mexico City",
-          "home": "1A",
+          "home": "MEX",
           "away": "3C/E/F/H/I",
           "hs": null,
           "as": null,
@@ -103,7 +103,7 @@
         {
           "date": "2026-07-01",
           "ground": "San Francisco Bay Area (Santa Clara)",
-          "home": "1D",
+          "home": "USA",
           "away": "3B/E/F/I/J",
           "hs": null,
           "as": null,

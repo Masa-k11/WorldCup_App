@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T23:59:36.279680+00:00",
+  "updatedAt": "2026-06-22T05:25:06.314522+00:00",
   "matches": {
     "MEX|RSA": {
       "MEX": 2,
@@ -163,6 +163,12 @@
       "st": "FT",
       "min": 90
     },
+    "EGY|NZL": {
+      "NZL": 1,
+      "EGY": 3,
+      "st": "FT",
+      "min": 90
+    },
     "CPV|ESP": {
       "ESP": 0,
       "CPV": 0,
@@ -178,6 +184,12 @@
     "ESP|KSA": {
       "ESP": 4,
       "KSA": 0,
+      "st": "FT",
+      "min": 90
+    },
+    "CPV|URU": {
+      "URU": 2,
+      "CPV": 2,
       "st": "FT",
       "min": 90
     },
@@ -227,12 +239,6 @@
       "GHA": 1,
       "PAN": 0,
       "st": "FT",
-      "min": 90
-    },
-    "CPV|URU": {
-      "URU": 2,
-      "CPV": 2,
-      "st": "LIVE",
       "min": 90
     }
   }

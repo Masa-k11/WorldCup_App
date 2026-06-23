@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T17:27:56.048260+00:00",
+  "updatedAt": "2026-06-23T19:29:49.718509+00:00",
   "top": [
     {
       "name": "Lionel Messi",
@@ -50,6 +50,12 @@
       "pen": 0
     },
     {
+      "name": "Cristiano Ronaldo",
+      "team": "POR",
+      "goals": 2,
+      "pen": 0
+    },
+    {
       "name": "Crysencio Summerville",
       "team": "NED",
       "goals": 2,
@@ -82,12 +88,6 @@
     {
       "name": "Ismael Saibari",
       "team": "MAR",
-      "goals": 2,
-      "pen": 0
-    },
-    {
-      "name": "Ismaïla Sarr",
-      "team": "SEN",
       "goals": 2,
       "pen": 0
     }

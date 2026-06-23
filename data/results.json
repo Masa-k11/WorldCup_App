@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T01:27:16.589784+00:00",
+  "updatedAt": "2026-06-23T05:48:19.846920+00:00",
   "matches": {
     "MEX|RSA": {
       "MEX": 2,
@@ -211,6 +211,12 @@
       "st": "FT",
       "min": 90
     },
+    "NOR|SEN": {
+      "NOR": 3,
+      "SEN": 2,
+      "st": "FT",
+      "min": 90
+    },
     "ARG|DZA": {
       "ARG": 3,
       "DZA": 0,
@@ -226,6 +232,12 @@
     "ARG|AUT": {
       "ARG": 2,
       "AUT": 0,
+      "st": "FT",
+      "min": 90
+    },
+    "DZA|JOR": {
+      "JOR": 1,
+      "DZA": 2,
       "st": "FT",
       "min": 90
     },
@@ -252,12 +264,6 @@
       "PAN": 0,
       "st": "FT",
       "min": 90
-    },
-    "NOR|SEN": {
-      "NOR": 3,
-      "SEN": 1,
-      "st": "LIVE",
-      "min": 68
     }
   }
 }

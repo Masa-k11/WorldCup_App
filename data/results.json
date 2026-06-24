@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T22:24:47.738121+00:00",
+  "updatedAt": "2026-06-24T23:44:40.323656+00:00",
   "matches": {
     "MEX|RSA": {
       "MEX": 2,
@@ -302,16 +302,16 @@
       "min": 90
     },
     "HAI|MAR": {
-      "MAR": 0,
-      "HAI": 1,
+      "MAR": 3,
+      "HAI": 2,
       "st": "LIVE",
-      "min": 24
+      "min": 82
     },
     "BRA|SCO": {
       "SCO": 0,
-      "BRA": 2,
+      "BRA": 3,
       "st": "LIVE",
-      "min": 23
+      "min": 80
     }
   }
 }

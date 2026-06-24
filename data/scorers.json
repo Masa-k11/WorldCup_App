@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T19:09:38.768452+00:00",
+  "updatedAt": "2026-06-24T20:57:39.254105+00:00",
   "top": [
     {
       "name": "Lionel Messi",
@@ -22,6 +22,12 @@
     {
       "name": "Deniz Undav",
       "team": "GER",
+      "goals": 3,
+      "pen": 0
+    },
+    {
+      "name": "Johan Manzambi",
+      "team": "SUI",
       "goals": 3,
       "pen": 0
     },
@@ -82,12 +88,6 @@
     {
       "name": "Elijah Just",
       "team": "NZL",
-      "goals": 2,
-      "pen": 0
-    },
-    {
-      "name": "Folarin Balogun",
-      "team": "USA",
       "goals": 2,
       "pen": 0
     }

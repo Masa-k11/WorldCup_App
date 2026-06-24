@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T19:09:38.768452+00:00",
+  "updatedAt": "2026-06-24T20:57:39.254105+00:00",
   "matches": {
     "MEX|RSA": {
       "MEX": 2,
@@ -46,6 +46,12 @@
     "CAN|QAT": {
       "CAN": 6,
       "QAT": 0,
+      "st": "FT",
+      "min": 90
+    },
+    "CAN|SUI": {
+      "SUI": 2,
+      "CAN": 1,
       "st": "FT",
       "min": 90
     },
@@ -290,16 +296,10 @@
       "min": 90
     },
     "BIH|QAT": {
-      "BIH": 0,
-      "QAT": 0,
+      "BIH": 3,
+      "QAT": 1,
       "st": "LIVE",
-      "min": 9
-    },
-    "CAN|SUI": {
-      "SUI": 0,
-      "CAN": 0,
-      "st": "LIVE",
-      "min": 9
+      "min": 90
     }
   }
 }

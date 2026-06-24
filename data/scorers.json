@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T20:57:39.254105+00:00",
+  "updatedAt": "2026-06-24T22:24:47.738121+00:00",
   "top": [
     {
       "name": "Lionel Messi",
@@ -16,6 +16,12 @@
     {
       "name": "Kylian Mbappé",
       "team": "FRA",
+      "goals": 4,
+      "pen": 0
+    },
+    {
+      "name": "Vinícius Júnior",
+      "team": "BRA",
       "goals": 4,
       "pen": 0
     },
@@ -82,12 +88,6 @@
     {
       "name": "Daniel Muñoz",
       "team": "COL",
-      "goals": 2,
-      "pen": 0
-    },
-    {
-      "name": "Elijah Just",
-      "team": "NZL",
       "goals": 2,
       "pen": 0
     }

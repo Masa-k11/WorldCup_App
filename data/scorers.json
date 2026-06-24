@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T01:47:18.834690+00:00",
+  "updatedAt": "2026-06-24T05:53:45.490036+00:00",
   "top": [
     {
       "name": "Lionel Messi",
@@ -74,6 +74,12 @@
       "pen": 0
     },
     {
+      "name": "Daniel Muñoz",
+      "team": "COL",
+      "goals": 2,
+      "pen": 0
+    },
+    {
       "name": "Elijah Just",
       "team": "NZL",
       "goals": 2,
@@ -82,12 +88,6 @@
     {
       "name": "Folarin Balogun",
       "team": "USA",
-      "goals": 2,
-      "pen": 0
-    },
-    {
-      "name": "Ismael Saibari",
-      "team": "MAR",
       "goals": 2,
       "pen": 0
     }

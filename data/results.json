@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T01:52:38.117915+00:00",
+  "updatedAt": "2026-06-25T06:07:37.307637+00:00",
   "matches": {
     "MEX|RSA": {
       "MEX": 2,
@@ -21,6 +21,18 @@
     },
     "KOR|MEX": {
       "MEX": 1,
+      "KOR": 0,
+      "st": "FT",
+      "min": 90
+    },
+    "CZE|MEX": {
+      "CZE": 0,
+      "MEX": 3,
+      "st": "FT",
+      "min": 90
+    },
+    "KOR|RSA": {
+      "RSA": 1,
       "KOR": 0,
       "st": "FT",
       "min": 90
@@ -312,18 +324,6 @@
       "CRO": 1,
       "st": "FT",
       "min": 90
-    },
-    "CZE|MEX": {
-      "CZE": 0,
-      "MEX": 0,
-      "st": "HT",
-      "min": 45
-    },
-    "KOR|RSA": {
-      "RSA": 0,
-      "KOR": 0,
-      "st": "HT",
-      "min": 45
     }
   }
 }

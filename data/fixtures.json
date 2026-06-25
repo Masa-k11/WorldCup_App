@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T15:15:54.640185+00:00",
+  "updatedAt": "2026-06-25T17:26:14.322252+00:00",
   "matches": {
     "MEX|RSA": {
       "y": 2026,
@@ -720,6 +720,16 @@
       "off": -4,
       "tz": "UTC-4",
       "ground": "Philadelphia"
+    },
+    "CAN|RSA": {
+      "y": 2026,
+      "mo": 6,
+      "d": 28,
+      "h": 12,
+      "mi": 0,
+      "off": -7,
+      "tz": "UTC-7",
+      "ground": "Los Angeles (Inglewood)"
     }
   }
 }

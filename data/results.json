@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T21:14:55.589237+00:00",
+  "updatedAt": "2026-06-25T22:51:47.479628+00:00",
   "matches": {
     "MEX|RSA": {
       "MEX": 2,
@@ -154,6 +154,18 @@
     "CUW|ECU": {
       "ECU": 0,
       "CUW": 0,
+      "st": "FT",
+      "min": 90
+    },
+    "CIV|CUW": {
+      "CUW": 0,
+      "CIV": 2,
+      "st": "FT",
+      "min": 90
+    },
+    "ECU|GER": {
+      "ECU": 2,
+      "GER": 1,
       "st": "FT",
       "min": 90
     },
@@ -324,18 +336,6 @@
       "CRO": 1,
       "st": "FT",
       "min": 90
-    },
-    "CIV|CUW": {
-      "CUW": 0,
-      "CIV": 1,
-      "st": "LIVE",
-      "min": 53
-    },
-    "ECU|GER": {
-      "ECU": 1,
-      "GER": 1,
-      "st": "LIVE",
-      "min": 54
     }
   }
 }

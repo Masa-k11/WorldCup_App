@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T00:06:43.578326+00:00",
+  "updatedAt": "2026-06-26T04:39:10.590387+00:00",
   "top": [
     {
       "name": "Lionel Messi",
@@ -62,6 +62,12 @@
       "pen": 0
     },
     {
+      "name": "Anthony Elanga",
+      "team": "SWE",
+      "goals": 2,
+      "pen": 0
+    },
+    {
       "name": "Ayase Ueda",
       "team": "JPN",
       "goals": 2,
@@ -82,12 +88,6 @@
     {
       "name": "Crysencio Summerville",
       "team": "NED",
-      "goals": 2,
-      "pen": 0
-    },
-    {
-      "name": "Cyle Larin",
-      "team": "CAN",
       "goals": 2,
       "pen": 0
     }

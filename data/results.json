@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T00:06:43.578326+00:00",
+  "updatedAt": "2026-06-26T04:39:10.590387+00:00",
   "matches": {
     "MEX|RSA": {
       "MEX": 2,
@@ -133,6 +133,18 @@
       "st": "FT",
       "min": 90
     },
+    "TUR|USA": {
+      "TUR": 3,
+      "USA": 2,
+      "st": "FT",
+      "min": 90
+    },
+    "AUS|PAR": {
+      "PAR": 0,
+      "AUS": 0,
+      "st": "FT",
+      "min": 90
+    },
     "CUW|GER": {
       "GER": 7,
       "CUW": 1,
@@ -190,6 +202,18 @@
     "JPN|TUN": {
       "TUN": 0,
       "JPN": 4,
+      "st": "FT",
+      "min": 90
+    },
+    "JPN|SWE": {
+      "JPN": 1,
+      "SWE": 1,
+      "st": "FT",
+      "min": 90
+    },
+    "NED|TUN": {
+      "TUN": 1,
+      "NED": 3,
       "st": "FT",
       "min": 90
     },
@@ -336,18 +360,6 @@
       "CRO": 1,
       "st": "FT",
       "min": 90
-    },
-    "JPN|SWE": {
-      "JPN": 0,
-      "SWE": 0,
-      "st": "HT",
-      "min": 45
-    },
-    "NED|TUN": {
-      "TUN": 0,
-      "NED": 2,
-      "st": "LIVE",
-      "min": 47
     }
   }
 }

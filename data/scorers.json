@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T20:03:26.097160+00:00",
+  "updatedAt": "2026-06-26T21:38:33.774604+00:00",
   "top": [
     {
       "name": "Lionel Messi",
@@ -50,6 +50,12 @@
       "pen": 0
     },
     {
+      "name": "Ismaïla Sarr",
+      "team": "SEN",
+      "goals": 3,
+      "pen": 0
+    },
+    {
       "name": "Johan Manzambi",
       "team": "SUI",
       "goals": 3,
@@ -82,12 +88,6 @@
     {
       "name": "Cody Gakpo",
       "team": "NED",
-      "goals": 2,
-      "pen": 0
-    },
-    {
-      "name": "Cristiano Ronaldo",
-      "team": "POR",
       "goals": 2,
       "pen": 0
     }

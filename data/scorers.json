@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T17:57:50.604689+00:00",
+  "updatedAt": "2026-06-26T20:03:26.097160+00:00",
   "top": [
     {
       "name": "Lionel Messi",
@@ -15,6 +15,12 @@
     },
     {
       "name": "Kylian Mbappé",
+      "team": "FRA",
+      "goals": 4,
+      "pen": 0
+    },
+    {
+      "name": "Ousmane Dembélé",
       "team": "FRA",
       "goals": 4,
       "pen": 0
@@ -82,12 +88,6 @@
     {
       "name": "Cristiano Ronaldo",
       "team": "POR",
-      "goals": 2,
-      "pen": 0
-    },
-    {
-      "name": "Crysencio Summerville",
-      "team": "NED",
       "goals": 2,
       "pen": 0
     }

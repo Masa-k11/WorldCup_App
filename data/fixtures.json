@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T11:22:01.802639+00:00",
+  "updatedAt": "2026-06-26T13:28:27.502355+00:00",
   "matches": {
     "MEX|RSA": {
       "y": 2026,
@@ -730,6 +730,26 @@
       "off": -7,
       "tz": "UTC-7",
       "ground": "Los Angeles (Inglewood)"
+    },
+    "MAR|NED": {
+      "y": 2026,
+      "mo": 6,
+      "d": 29,
+      "h": 19,
+      "mi": 0,
+      "off": -6,
+      "tz": "UTC-6",
+      "ground": "Monterrey (Guadalupe)"
+    },
+    "BRA|JPN": {
+      "y": 2026,
+      "mo": 6,
+      "d": 29,
+      "h": 12,
+      "mi": 0,
+      "off": -5,
+      "tz": "UTC-5",
+      "ground": "Houston"
     }
   }
 }

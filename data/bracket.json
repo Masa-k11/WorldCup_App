@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T11:22:01.802639+00:00",
+  "updatedAt": "2026-06-26T13:28:27.502355+00:00",
   "rounds": [
     {
       "key": "R32",
@@ -31,7 +31,7 @@
         {
           "date": "2026-06-29",
           "ground": "Monterrey (Guadalupe)",
-          "home": "1F",
+          "home": "NED",
           "away": "MAR",
           "hs": null,
           "as": null,
@@ -44,7 +44,7 @@
           "date": "2026-06-29",
           "ground": "Houston",
           "home": "BRA",
-          "away": "2F",
+          "away": "JPN",
           "hs": null,
           "as": null,
           "h": 12,
@@ -67,7 +67,7 @@
         {
           "date": "2026-06-30",
           "ground": "Dallas (Arlington)",
-          "home": "2E",
+          "home": "CIV",
           "away": "2I",
           "hs": null,
           "as": null,
@@ -187,7 +187,7 @@
         {
           "date": "2026-07-03",
           "ground": "Dallas (Arlington)",
-          "home": "2D",
+          "home": "AUS",
           "away": "2G",
           "hs": null,
           "as": null,

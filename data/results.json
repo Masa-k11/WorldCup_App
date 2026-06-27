@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T21:47:23.118017+00:00",
+  "updatedAt": "2026-06-27T22:47:26.269574+00:00",
   "matches": {
     "MEX|RSA": {
       "MEX": 2,
@@ -398,16 +398,16 @@
       "min": 90
     },
     "CRO|GHA": {
-      "CRO": 1,
-      "GHA": 0,
+      "CRO": 2,
+      "GHA": 1,
       "st": "LIVE",
-      "min": 45
+      "min": 86
     },
     "ENG|PAN": {
       "PAN": 0,
-      "ENG": 0,
+      "ENG": 2,
       "st": "LIVE",
-      "min": 45
+      "min": 88
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T04:13:04.857005+00:00",
+  "updatedAt": "2026-06-27T07:29:29.904178+00:00",
   "top": [
     {
       "name": "Lionel Messi",
@@ -44,6 +44,12 @@
       "pen": 0
     },
     {
+      "name": "Elijah Just",
+      "team": "NZL",
+      "goals": 3,
+      "pen": 0
+    },
+    {
       "name": "Ismael Saibari",
       "team": "MAR",
       "goals": 3,
@@ -82,12 +88,6 @@
     {
       "name": "Ayase Ueda",
       "team": "JPN",
-      "goals": 2,
-      "pen": 0
-    },
-    {
-      "name": "Cody Gakpo",
-      "team": "NED",
       "goals": 2,
       "pen": 0
     }

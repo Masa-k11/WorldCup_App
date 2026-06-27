@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T04:13:04.857005+00:00",
+  "updatedAt": "2026-06-27T07:29:29.904178+00:00",
   "matches": {
     "MEX|RSA": {
       "MEX": 2,
@@ -241,6 +241,18 @@
       "st": "FT",
       "min": 90
     },
+    "EGY|IRN": {
+      "EGY": 1,
+      "IRN": 1,
+      "st": "FT",
+      "min": 90
+    },
+    "BEL|NZL": {
+      "NZL": 1,
+      "BEL": 5,
+      "st": "FT",
+      "min": 90
+    },
     "CPV|ESP": {
       "ESP": 0,
       "CPV": 0,
@@ -384,18 +396,6 @@
       "CRO": 1,
       "st": "FT",
       "min": 90
-    },
-    "EGY|IRN": {
-      "EGY": 1,
-      "IRN": 1,
-      "st": "LIVE",
-      "min": 49
-    },
-    "BEL|NZL": {
-      "NZL": 0,
-      "BEL": 2,
-      "st": "LIVE",
-      "min": 50
     }
   }
 }

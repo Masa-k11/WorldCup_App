@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T22:47:26.269574+00:00",
+  "updatedAt": "2026-06-27T23:47:49.787840+00:00",
   "matches": {
     "MEX|RSA": {
       "MEX": 2,
@@ -397,17 +397,29 @@
       "st": "FT",
       "min": 90
     },
-    "CRO|GHA": {
-      "CRO": 2,
-      "GHA": 1,
-      "st": "LIVE",
-      "min": 86
-    },
     "ENG|PAN": {
       "PAN": 0,
       "ENG": 2,
+      "st": "FT",
+      "min": 90
+    },
+    "CRO|GHA": {
+      "CRO": 2,
+      "GHA": 1,
+      "st": "FT",
+      "min": 90
+    },
+    "COL|POR": {
+      "COL": 0,
+      "POR": 0,
       "st": "LIVE",
-      "min": 88
+      "min": 16
+    },
+    "COD|UZB": {
+      "COD": 0,
+      "UZB": 1,
+      "st": "LIVE",
+      "min": 16
     }
   }
 }

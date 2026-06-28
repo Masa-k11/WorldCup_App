@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T20:15:14.274955+00:00",
+  "updatedAt": "2026-06-28T21:32:33.527955+00:00",
   "rounds": [
     {
       "key": "R32",
@@ -9,8 +9,8 @@
           "ground": "Los Angeles (Inglewood)",
           "home": "RSA",
           "away": "CAN",
-          "hs": null,
-          "as": null,
+          "hs": 0,
+          "as": 1,
           "h": 12,
           "mi": 0,
           "off": -7,

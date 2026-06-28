@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T06:36:02.412644+00:00",
+  "updatedAt": "2026-06-28T09:47:06.230716+00:00",
   "matches": {
     "MEX|RSA": {
       "y": 2026,
@@ -731,6 +731,16 @@
       "tz": "UTC-7",
       "ground": "Los Angeles (Inglewood)"
     },
+    "GER|PAR": {
+      "y": 2026,
+      "mo": 6,
+      "d": 29,
+      "h": 16,
+      "mi": 30,
+      "off": -4,
+      "tz": "UTC-4",
+      "ground": "Boston (Foxborough)"
+    },
     "MAR|NED": {
       "y": 2026,
       "mo": 6,
@@ -750,6 +760,126 @@
       "off": -5,
       "tz": "UTC-5",
       "ground": "Houston"
+    },
+    "FRA|SWE": {
+      "y": 2026,
+      "mo": 6,
+      "d": 30,
+      "h": 17,
+      "mi": 0,
+      "off": -4,
+      "tz": "UTC-4",
+      "ground": "New York/New Jersey (East Rutherford)"
+    },
+    "CIV|NOR": {
+      "y": 2026,
+      "mo": 6,
+      "d": 30,
+      "h": 12,
+      "mi": 0,
+      "off": -5,
+      "tz": "UTC-5",
+      "ground": "Dallas (Arlington)"
+    },
+    "ECU|MEX": {
+      "y": 2026,
+      "mo": 6,
+      "d": 30,
+      "h": 19,
+      "mi": 0,
+      "off": -6,
+      "tz": "UTC-6",
+      "ground": "Mexico City"
+    },
+    "COD|ENG": {
+      "y": 2026,
+      "mo": 7,
+      "d": 1,
+      "h": 12,
+      "mi": 0,
+      "off": -4,
+      "tz": "UTC-4",
+      "ground": "Atlanta"
+    },
+    "BIH|USA": {
+      "y": 2026,
+      "mo": 7,
+      "d": 1,
+      "h": 17,
+      "mi": 0,
+      "off": -7,
+      "tz": "UTC-7",
+      "ground": "San Francisco Bay Area (Santa Clara)"
+    },
+    "BEL|SEN": {
+      "y": 2026,
+      "mo": 7,
+      "d": 1,
+      "h": 13,
+      "mi": 0,
+      "off": -7,
+      "tz": "UTC-7",
+      "ground": "Seattle"
+    },
+    "CRO|POR": {
+      "y": 2026,
+      "mo": 7,
+      "d": 2,
+      "h": 19,
+      "mi": 0,
+      "off": -4,
+      "tz": "UTC-4",
+      "ground": "Toronto"
+    },
+    "AUT|ESP": {
+      "y": 2026,
+      "mo": 7,
+      "d": 2,
+      "h": 12,
+      "mi": 0,
+      "off": -7,
+      "tz": "UTC-7",
+      "ground": "Los Angeles (Inglewood)"
+    },
+    "DZA|SUI": {
+      "y": 2026,
+      "mo": 7,
+      "d": 2,
+      "h": 20,
+      "mi": 0,
+      "off": -7,
+      "tz": "UTC-7",
+      "ground": "Vancouver"
+    },
+    "ARG|CPV": {
+      "y": 2026,
+      "mo": 7,
+      "d": 3,
+      "h": 18,
+      "mi": 0,
+      "off": -4,
+      "tz": "UTC-4",
+      "ground": "Miami (Miami Gardens)"
+    },
+    "COL|GHA": {
+      "y": 2026,
+      "mo": 7,
+      "d": 3,
+      "h": 20,
+      "mi": 30,
+      "off": -5,
+      "tz": "UTC-5",
+      "ground": "Kansas City"
+    },
+    "AUS|EGY": {
+      "y": 2026,
+      "mo": 7,
+      "d": 3,
+      "h": 13,
+      "mi": 0,
+      "off": -5,
+      "tz": "UTC-5",
+      "ground": "Dallas (Arlington)"
     }
   }
 }

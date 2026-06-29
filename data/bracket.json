@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T18:26:12.026097+00:00",
+  "updatedAt": "2026-06-29T20:27:36.579719+00:00",
   "rounds": [
     {
       "key": "R32",
@@ -45,8 +45,8 @@
           "ground": "Houston",
           "home": "BRA",
           "away": "JPN",
-          "hs": null,
-          "as": null,
+          "hs": 2,
+          "as": 1,
           "h": 12,
           "mi": 0,
           "off": -5,

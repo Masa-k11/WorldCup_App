@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T18:15:07.668052+00:00",
+  "updatedAt": "2026-06-30T20:23:53.288647+00:00",
   "rounds": [
     {
       "key": "R32",
@@ -69,8 +69,8 @@
           "ground": "Dallas (Arlington)",
           "home": "CIV",
           "away": "NOR",
-          "hs": null,
-          "as": null,
+          "hs": 1,
+          "as": 2,
           "h": 12,
           "mi": 0,
           "off": -5,

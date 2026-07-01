@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T10:17:05.151946+00:00",
+  "updatedAt": "2026-07-01T13:14:42.353411+00:00",
   "rounds": [
     {
       "key": "R32",
@@ -240,7 +240,7 @@
         {
           "date": "2026-07-05",
           "ground": "Mexico City",
-          "home": "W79",
+          "home": "MEX",
           "away": "W80",
           "hs": null,
           "as": null,

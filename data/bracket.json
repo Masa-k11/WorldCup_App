@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T15:58:38.566657+00:00",
+  "updatedAt": "2026-07-01T18:07:05.660549+00:00",
   "rounds": [
     {
       "key": "R32",
@@ -93,8 +93,8 @@
           "ground": "Atlanta",
           "home": "ENG",
           "away": "COD",
-          "hs": null,
-          "as": null,
+          "hs": 2,
+          "as": 1,
           "h": 12,
           "mi": 0,
           "off": -4,

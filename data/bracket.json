@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T21:53:14.394200+00:00",
+  "updatedAt": "2026-07-01T23:17:32.556633+00:00",
   "rounds": [
     {
       "key": "R32",
@@ -117,8 +117,8 @@
           "ground": "Seattle",
           "home": "BEL",
           "away": "SEN",
-          "hs": null,
-          "as": null,
+          "hs": 2,
+          "as": 2,
           "h": 13,
           "mi": 0,
           "off": -7,

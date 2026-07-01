@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T06:11:39.142434+00:00",
+  "updatedAt": "2026-07-01T10:17:05.151946+00:00",
   "rounds": [
     {
       "key": "R32",
@@ -204,8 +204,8 @@
         {
           "date": "2026-07-04",
           "ground": "Philadelphia",
-          "home": "W74",
-          "away": "W77",
+          "home": "PAR",
+          "away": "FRA",
           "hs": null,
           "as": null,
           "h": 17,
@@ -217,7 +217,7 @@
           "date": "2026-07-04",
           "ground": "Houston",
           "home": "CAN",
-          "away": "W75",
+          "away": "MAR",
           "hs": null,
           "as": null,
           "h": 12,
@@ -228,8 +228,8 @@
         {
           "date": "2026-07-05",
           "ground": "New York/New Jersey (East Rutherford)",
-          "home": "W76",
-          "away": "W78",
+          "home": "BRA",
+          "away": "NOR",
           "hs": null,
           "as": null,
           "h": 16,

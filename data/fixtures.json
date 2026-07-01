@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T06:11:39.142434+00:00",
+  "updatedAt": "2026-07-01T10:17:05.151946+00:00",
   "matches": {
     "MEX|RSA": {
       "y": 2026,
@@ -880,6 +880,36 @@
       "off": -5,
       "tz": "UTC-5",
       "ground": "Dallas (Arlington)"
+    },
+    "FRA|PAR": {
+      "y": 2026,
+      "mo": 7,
+      "d": 4,
+      "h": 17,
+      "mi": 0,
+      "off": -4,
+      "tz": "UTC-4",
+      "ground": "Philadelphia"
+    },
+    "CAN|MAR": {
+      "y": 2026,
+      "mo": 7,
+      "d": 4,
+      "h": 12,
+      "mi": 0,
+      "off": -5,
+      "tz": "UTC-5",
+      "ground": "Houston"
+    },
+    "BRA|NOR": {
+      "y": 2026,
+      "mo": 7,
+      "d": 5,
+      "h": 16,
+      "mi": 0,
+      "off": -4,
+      "tz": "UTC-4",
+      "ground": "New York/New Jersey (East Rutherford)"
     }
   }
 }

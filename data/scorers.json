@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T01:39:15.549698+00:00",
+  "updatedAt": "2026-07-01T06:11:39.142434+00:00",
   "top": [
     {
       "name": "Kylian Mbappé",
@@ -80,16 +80,16 @@
       "pen": 0
     },
     {
-      "name": "Matheus Cunha",
-      "team": "BRA",
+      "name": "Julián Quiñones",
+      "team": "MEX",
       "goals": 3,
       "pen": 0
     },
     {
-      "name": "Harry Kane",
-      "team": "ENG",
+      "name": "Matheus Cunha",
+      "team": "BRA",
       "goals": 3,
-      "pen": 1
+      "pen": 0
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T01:28:38.356623+00:00",
+  "updatedAt": "2026-07-02T05:38:58.243413+00:00",
   "rounds": [
     {
       "key": "R32",
@@ -105,8 +105,8 @@
           "ground": "San Francisco Bay Area (Santa Clara)",
           "home": "USA",
           "away": "BIH",
-          "hs": null,
-          "as": null,
+          "hs": 2,
+          "as": 0,
           "h": 17,
           "mi": 0,
           "off": -7,

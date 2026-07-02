@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T20:19:01.051824+00:00",
+  "updatedAt": "2026-07-02T21:40:31.222452+00:00",
   "top": [
     {
       "name": "Kylian Mbappé",
@@ -28,6 +28,12 @@
     {
       "name": "Ismaïla Sarr",
       "team": "SEN",
+      "goals": 4,
+      "pen": 0
+    },
+    {
+      "name": "Mikel Oyarzabal",
+      "team": "ESP",
       "goals": 4,
       "pen": 0
     },
@@ -82,12 +88,6 @@
     {
       "name": "Johan Manzambi",
       "team": "SUI",
-      "goals": 3,
-      "pen": 0
-    },
-    {
-      "name": "Jonathan David",
-      "team": "CAN",
       "goals": 3,
       "pen": 0
     }

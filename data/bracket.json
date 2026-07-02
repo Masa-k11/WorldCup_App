@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T20:19:01.051824+00:00",
+  "updatedAt": "2026-07-02T21:40:31.222452+00:00",
   "rounds": [
     {
       "key": "R32",
@@ -141,8 +141,8 @@
           "ground": "Los Angeles (Inglewood)",
           "home": "ESP",
           "away": "AUT",
-          "hs": null,
-          "as": null,
+          "hs": 3,
+          "as": 0,
           "h": 12,
           "mi": 0,
           "off": -7,

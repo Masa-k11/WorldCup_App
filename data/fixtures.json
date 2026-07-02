@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T05:38:58.243413+00:00",
+  "updatedAt": "2026-07-02T08:34:40.179027+00:00",
   "matches": {
     "MEX|RSA": {
       "y": 2026,
@@ -910,6 +910,26 @@
       "off": -4,
       "tz": "UTC-4",
       "ground": "New York/New Jersey (East Rutherford)"
+    },
+    "ENG|MEX": {
+      "y": 2026,
+      "mo": 7,
+      "d": 5,
+      "h": 18,
+      "mi": 0,
+      "off": -6,
+      "tz": "UTC-6",
+      "ground": "Mexico City"
+    },
+    "BEL|USA": {
+      "y": 2026,
+      "mo": 7,
+      "d": 6,
+      "h": 17,
+      "mi": 0,
+      "off": -7,
+      "tz": "UTC-7",
+      "ground": "Seattle"
     }
   }
 }

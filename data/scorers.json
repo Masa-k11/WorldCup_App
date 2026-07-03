@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-07-03T21:38:31.498289+00:00",
+  "updatedAt": "2026-07-03T22:42:30.281872+00:00",
   "top": [
-    {
-      "name": "Kylian Mbappé",
-      "team": "FRA",
-      "goals": 6,
-      "pen": 0
-    },
     {
       "name": "Lionel Messi",
       "team": "ARG",
+      "goals": 7,
+      "pen": 0
+    },
+    {
+      "name": "Kylian Mbappé",
+      "team": "FRA",
       "goals": 6,
       "pen": 0
     },

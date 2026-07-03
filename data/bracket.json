@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T23:53:02.290277+00:00",
+  "updatedAt": "2026-07-03T03:20:45.799111+00:00",
   "rounds": [
     {
       "key": "R32",
@@ -129,8 +129,8 @@
           "ground": "Toronto",
           "home": "POR",
           "away": "CRO",
-          "hs": null,
-          "as": null,
+          "hs": 2,
+          "as": 1,
           "h": 19,
           "mi": 0,
           "off": -4,

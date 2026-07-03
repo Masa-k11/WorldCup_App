@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T14:27:37.095413+00:00",
+  "updatedAt": "2026-07-03T16:08:27.464624+00:00",
   "rounds": [
     {
       "key": "R32",
@@ -252,8 +252,8 @@
         {
           "date": "2026-07-06",
           "ground": "Dallas (Arlington)",
-          "home": "W83",
-          "away": "W84",
+          "home": "POR",
+          "away": "ESP",
           "hs": null,
           "as": null,
           "h": 14,
@@ -288,7 +288,7 @@
         {
           "date": "2026-07-07",
           "ground": "Vancouver",
-          "home": "W85",
+          "home": "SUI",
           "away": "W87",
           "hs": null,
           "as": null,

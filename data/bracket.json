@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T18:16:34.982836+00:00",
+  "updatedAt": "2026-07-04T19:41:54.227836+00:00",
   "rounds": [
     {
       "key": "R32",
@@ -218,8 +218,8 @@
           "ground": "Houston",
           "home": "CAN",
           "away": "MAR",
-          "hs": null,
-          "as": null,
+          "hs": 0,
+          "as": 3,
           "h": 12,
           "mi": 0,
           "off": -5,

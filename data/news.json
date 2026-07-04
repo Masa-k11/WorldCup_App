@@ -1,6 +1,13 @@
 {
   "ja": [
     {
+      "time": "2026-07-04T19:05:31+00:00",
+      "title": "モロッコ代表がMFウナヒの2ゴールなどで8強入り！ カナダ代表は開催国初の敗退チームに",
+      "body": "フットボールチャンネル",
+      "tag": "ニュース",
+      "url": "https://www.footballchannel.jp/2026/07/05/post940188/"
+    },
+    {
       "time": "2026-07-04T16:31:28+00:00",
       "title": "フランス代表の最新FIFAランキング順位は？ 5日にパラグアイ代表と対戦！",
       "body": "フットボールチャンネル",
@@ -64,13 +71,6 @@
       "url": "https://www.footballchannel.jp/2026/07/05/post939999/"
     },
     {
-      "time": "2026-07-04T15:59:27+00:00",
-      "title": "モロッコ代表、カナダ代表戦のスタメン発表！ ハキミやブラヒム・ディアスらが先発",
-      "body": "フットボールチャンネル",
-      "tag": "ニュース",
-      "url": "https://www.footballchannel.jp/2026/07/05/post939951/"
-    },
-    {
       "time": "2026-07-04T15:45:05+00:00",
       "title": "オランダ代表DFアケが6季過ごしたマンCに別れ「僕にとっていつまでも特別な存在」…新天地はトルコ",
       "body": "ワールドサッカーダイジェスト",
@@ -100,6 +100,12 @@
     }
   ],
   "en": [
+    {
+      "time": "2026-07-04T12:00:00Z",
+      "title": "Full-time ⚽",
+      "body": "Canada 0-3 Morocco",
+      "tag": "FULL-TIME"
+    },
     {
       "time": "2026-07-03T12:00:00Z",
       "title": "Full-time ⚽",
@@ -164,12 +170,6 @@
       "time": "2026-06-30T12:00:00Z",
       "title": "Full-time ⚽",
       "body": "Côte d'Ivoire 1-2 Norway",
-      "tag": "FULL-TIME"
-    },
-    {
-      "time": "2026-06-30T12:00:00Z",
-      "title": "Full-time ⚽",
-      "body": "Mexico 2-0 Ecuador",
       "tag": "FULL-TIME"
     }
   ]

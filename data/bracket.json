@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T10:24:39.483124+00:00",
+  "updatedAt": "2026-07-04T11:52:35.747251+00:00",
   "rounds": [
     {
       "key": "R32",
@@ -276,8 +276,8 @@
         {
           "date": "2026-07-07",
           "ground": "Atlanta",
-          "home": "W86",
-          "away": "W88",
+          "home": "ARG",
+          "away": "EGY",
           "hs": null,
           "as": null,
           "h": 12,
@@ -289,7 +289,7 @@
           "date": "2026-07-07",
           "ground": "Vancouver",
           "home": "SUI",
-          "away": "W87",
+          "away": "COL",
           "hs": null,
           "as": null,
           "h": 13,

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T01:22:45.496863+00:00",
+  "updatedAt": "2026-07-04T05:09:29.688635+00:00",
   "rounds": [
     {
       "key": "R32",
@@ -177,8 +177,8 @@
           "ground": "Kansas City",
           "home": "COL",
           "away": "GHA",
-          "hs": null,
-          "as": null,
+          "hs": 1,
+          "as": 0,
           "h": 20,
           "mi": 30,
           "off": -5,

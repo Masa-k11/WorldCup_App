@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T23:47:08.891304+00:00",
+  "updatedAt": "2026-07-04T01:22:45.496863+00:00",
   "matches": {
     "MEX|RSA": {
       "MEX": 2,
@@ -511,17 +511,17 @@
       "st": "FT",
       "min": 90
     },
+    "ARG|CPV": {
+      "ARG": 3,
+      "CPV": 2,
+      "st": "FT",
+      "min": 90
+    },
     "AUS|EGY": {
       "AUS": 1,
       "EGY": 1,
       "st": "FT",
       "min": 90
-    },
-    "ARG|CPV": {
-      "ARG": 1,
-      "CPV": 1,
-      "st": "LIVE",
-      "min": 86
     }
   }
 }

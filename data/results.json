@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T22:41:34.357167+00:00",
+  "updatedAt": "2026-07-04T23:45:45.959589+00:00",
   "matches": {
     "MEX|RSA": {
       "MEX": 2,
@@ -529,17 +529,17 @@
       "st": "FT",
       "min": 90
     },
+    "FRA|PAR": {
+      "PAR": 0,
+      "FRA": 1,
+      "st": "FT",
+      "min": 90
+    },
     "CAN|MAR": {
       "CAN": 0,
       "MAR": 3,
       "st": "FT",
       "min": 90
-    },
-    "FRA|PAR": {
-      "PAR": 0,
-      "FRA": 1,
-      "st": "LIVE",
-      "min": 77
     }
   }
 }

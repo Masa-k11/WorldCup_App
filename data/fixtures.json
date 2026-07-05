@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T17:52:02.684582+00:00",
+  "updatedAt": "2026-07-05T19:15:14.215336+00:00",
   "matches": {
     "MEX|RSA": {
       "y": 2026,
@@ -960,6 +960,16 @@
       "off": -7,
       "tz": "UTC-7",
       "ground": "Vancouver"
+    },
+    "FRA|MAR": {
+      "y": 2026,
+      "mo": 7,
+      "d": 9,
+      "h": 16,
+      "mi": 0,
+      "off": -4,
+      "tz": "UTC-4",
+      "ground": "Boston (Foxborough)"
     }
   }
 }

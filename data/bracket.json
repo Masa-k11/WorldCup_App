@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T17:52:02.684582+00:00",
+  "updatedAt": "2026-07-05T19:15:14.215336+00:00",
   "rounds": [
     {
       "key": "R32",
@@ -305,8 +305,8 @@
         {
           "date": "2026-07-09",
           "ground": "Boston (Foxborough)",
-          "home": "W89",
-          "away": "W90",
+          "home": "FRA",
+          "away": "MAR",
           "hs": null,
           "as": null,
           "h": 16,

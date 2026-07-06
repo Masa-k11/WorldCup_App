@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T11:03:30.875999+00:00",
+  "updatedAt": "2026-07-06T14:35:04.799051+00:00",
   "rounds": [
     {
       "key": "R32",
@@ -329,8 +329,8 @@
         {
           "date": "2026-07-11",
           "ground": "Miami (Miami Gardens)",
-          "home": "W91",
-          "away": "W92",
+          "home": "NOR",
+          "away": "ENG",
           "hs": null,
           "as": null,
           "h": 17,

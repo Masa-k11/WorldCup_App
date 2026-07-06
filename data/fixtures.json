@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T11:03:30.875999+00:00",
+  "updatedAt": "2026-07-06T14:35:04.799051+00:00",
   "matches": {
     "MEX|RSA": {
       "y": 2026,
@@ -970,6 +970,16 @@
       "off": -4,
       "tz": "UTC-4",
       "ground": "Boston (Foxborough)"
+    },
+    "ENG|NOR": {
+      "y": 2026,
+      "mo": 7,
+      "d": 11,
+      "h": 17,
+      "mi": 0,
+      "off": -4,
+      "tz": "UTC-4",
+      "ground": "Miami (Miami Gardens)"
     }
   }
 }

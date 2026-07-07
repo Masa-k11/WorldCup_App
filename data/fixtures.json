@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T09:21:01.001447+00:00",
+  "updatedAt": "2026-07-07T12:14:31.895128+00:00",
   "matches": {
     "MEX|RSA": {
       "y": 2026,
@@ -970,6 +970,16 @@
       "off": -4,
       "tz": "UTC-4",
       "ground": "Boston (Foxborough)"
+    },
+    "BEL|ESP": {
+      "y": 2026,
+      "mo": 7,
+      "d": 10,
+      "h": 12,
+      "mi": 0,
+      "off": -7,
+      "tz": "UTC-7",
+      "ground": "Los Angeles (Inglewood)"
     },
     "ENG|NOR": {
       "y": 2026,

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T22:30:51.085425+00:00",
+  "updatedAt": "2026-07-07T23:32:30.963206+00:00",
   "rounds": [
     {
       "key": "R32",
@@ -290,8 +290,8 @@
           "ground": "Vancouver",
           "home": "SUI",
           "away": "COL",
-          "hs": null,
-          "as": null,
+          "hs": 0,
+          "as": 0,
           "h": 13,
           "mi": 0,
           "off": -7,

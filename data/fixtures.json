@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-08T09:40:06.625295+00:00",
+  "updatedAt": "2026-07-08T11:31:24.142634+00:00",
   "matches": {
     "MEX|RSA": {
       "y": 2026,
@@ -990,6 +990,16 @@
       "off": -4,
       "tz": "UTC-4",
       "ground": "Miami (Miami Gardens)"
+    },
+    "ARG|SUI": {
+      "y": 2026,
+      "mo": 7,
+      "d": 11,
+      "h": 20,
+      "mi": 0,
+      "off": -5,
+      "tz": "UTC-5",
+      "ground": "Kansas City"
     }
   }
 }

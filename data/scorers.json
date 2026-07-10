@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T19:05:09.496814+00:00",
+  "updatedAt": "2026-07-10T20:41:09.325105+00:00",
   "top": [
     {
       "name": "Lionel Messi",
@@ -68,6 +68,12 @@
       "pen": 0
     },
     {
+      "name": "Charles De Ketelaere",
+      "team": "BEL",
+      "goals": 3,
+      "pen": 0
+    },
+    {
       "name": "Cody Gakpo",
       "team": "NED",
       "goals": 3,
@@ -82,12 +88,6 @@
     {
       "name": "Elijah Just",
       "team": "NZL",
-      "goals": 3,
-      "pen": 0
-    },
-    {
-      "name": "Folarin Balogun",
-      "team": "USA",
       "goals": 3,
       "pen": 0
     }

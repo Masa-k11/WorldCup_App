@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T12:33:05.236767+00:00",
+  "updatedAt": "2026-07-11T14:07:41.599710+00:00",
   "rounds": [
     {
       "key": "R32",
@@ -358,8 +358,8 @@
         {
           "date": "2026-07-14",
           "ground": "Dallas (Arlington)",
-          "home": "W97",
-          "away": "W98",
+          "home": "FRA",
+          "away": "ESP",
           "hs": null,
           "as": null,
           "h": 14,

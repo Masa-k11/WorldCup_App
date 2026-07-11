@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T12:33:05.236767+00:00",
+  "updatedAt": "2026-07-11T14:07:41.599710+00:00",
   "matches": {
     "MEX|RSA": {
       "y": 2026,
@@ -1000,6 +1000,16 @@
       "off": -5,
       "tz": "UTC-5",
       "ground": "Kansas City"
+    },
+    "ESP|FRA": {
+      "y": 2026,
+      "mo": 7,
+      "d": 14,
+      "h": 14,
+      "mi": 0,
+      "off": -5,
+      "tz": "UTC-5",
+      "ground": "Dallas (Arlington)"
     }
   }
 }

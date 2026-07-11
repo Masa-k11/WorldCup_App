@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T21:30:35.240704+00:00",
+  "updatedAt": "2026-07-11T22:28:09.717150+00:00",
   "top": [
     {
       "name": "Lionel Messi",
@@ -26,6 +26,12 @@
       "pen": 2
     },
     {
+      "name": "Jude Bellingham",
+      "team": "ENG",
+      "goals": 5,
+      "pen": 0
+    },
+    {
       "name": "Ousmane Dembélé",
       "team": "FRA",
       "goals": 5,
@@ -34,12 +40,6 @@
     {
       "name": "Ismaïla Sarr",
       "team": "SEN",
-      "goals": 4,
-      "pen": 0
-    },
-    {
-      "name": "Jude Bellingham",
-      "team": "ENG",
       "goals": 4,
       "pen": 0
     },

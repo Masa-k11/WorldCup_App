@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T18:54:14.955453+00:00",
+  "updatedAt": "2026-07-14T20:15:34.706552+00:00",
   "top": [
     {
       "name": "Lionel Messi",
@@ -38,6 +38,12 @@
       "pen": 0
     },
     {
+      "name": "Mikel Oyarzabal",
+      "team": "ESP",
+      "goals": 5,
+      "pen": 1
+    },
+    {
       "name": "Ismaïla Sarr",
       "team": "SEN",
       "goals": 4,
@@ -46,12 +52,6 @@
     {
       "name": "Julián Quiñones",
       "team": "MEX",
-      "goals": 4,
-      "pen": 0
-    },
-    {
-      "name": "Mikel Oyarzabal",
-      "team": "ESP",
       "goals": 4,
       "pen": 0
     },

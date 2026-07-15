@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T06:29:33.695405+00:00",
+  "updatedAt": "2026-07-15T08:57:02.545134+00:00",
   "rounds": [
     {
       "key": "R32",
@@ -387,7 +387,7 @@
         {
           "date": "2026-07-18",
           "ground": "Miami (Miami Gardens)",
-          "home": "L101",
+          "home": "FRA",
           "away": "L102",
           "hs": null,
           "as": null,
@@ -404,7 +404,7 @@
         {
           "date": "2026-07-19",
           "ground": "New York/New Jersey (East Rutherford)",
-          "home": "W101",
+          "home": "ESP",
           "away": "W102",
           "hs": null,
           "as": null,

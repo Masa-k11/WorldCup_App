@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T19:55:38.586006+00:00",
+  "updatedAt": "2026-07-15T21:09:21.987966+00:00",
   "matches": {
     "MEX|RSA": {
       "y": 2026,
@@ -1020,6 +1020,26 @@
       "off": -4,
       "tz": "UTC-4",
       "ground": "Atlanta"
+    },
+    "ENG|FRA": {
+      "y": 2026,
+      "mo": 7,
+      "d": 18,
+      "h": 17,
+      "mi": 0,
+      "off": -4,
+      "tz": "UTC-4",
+      "ground": "Miami (Miami Gardens)"
+    },
+    "ARG|ESP": {
+      "y": 2026,
+      "mo": 7,
+      "d": 19,
+      "h": 15,
+      "mi": 0,
+      "off": -4,
+      "tz": "UTC-4",
+      "ground": "New York/New Jersey (East Rutherford)"
     }
   }
 }

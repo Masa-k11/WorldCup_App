@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T21:01:55.111364+00:00",
+  "updatedAt": "2026-07-19T22:05:11.295487+00:00",
   "rounds": [
     {
       "key": "R32",
@@ -406,8 +406,8 @@
           "ground": "New York/New Jersey (East Rutherford)",
           "home": "ESP",
           "away": "ARG",
-          "hs": null,
-          "as": null,
+          "hs": 1,
+          "as": 0,
           "h": 15,
           "mi": 0,
           "off": -4,
